@@ -4,7 +4,7 @@
   "description": "art dump",
   "main": "app.js",
   "scripts": {
-    "start" : "node app.js",
+    "start": "node app.js",
     "test": "no testing files"
   },
   "repository": {
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.9.7"
   }
 }
