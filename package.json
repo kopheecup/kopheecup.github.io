@@ -4,8 +4,11 @@
   "description": "art dump",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "no testing files"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "no testing files",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,16 +22,19 @@
   "bugs": {
     "url": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io/issues"
   },
-  "homepage": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io#readme",
+  "homepage": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io/index.html",
   "dependencies": {
+    "build": "^0.1.4",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "gh-pages": "^2.2.0",
     "mongodb": "^3.5.5",
     "mongoose": "^5.9.7",
     "multer": "^1.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
     "uuid": "^7.0.3"
   }
 }

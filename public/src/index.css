@@ -1,11 +1,11 @@
 @font-face {
   font-family: body;
-  src: url("./public/assets/fonts/Gotu-Regular.ttf");
+  src: url("../assets/fonts/Gotu-Regular.ttf");
 }
 
 @font-face {
   font-family: title;
-  src: url("./public/assets/fonts/XiaoWei-Regular.ttf");
+  src: url("../assets/fonts/XiaoWei-Regular.ttf");
 }
 
 .nav {
