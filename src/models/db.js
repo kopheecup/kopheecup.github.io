@@ -4,7 +4,7 @@ const AtlasURI = 'mongodb+srv://kopheecup:@Clarinet@kopheecup-8mav2.mongodb.net/
 
 const options = {
 	useNewUrlParser: true,
-	dbName: 'Kophee Gallery'
+	dbName: 'KopheeGallery'
 }
 
 mongoose.connect(AtlasURI, options).then(

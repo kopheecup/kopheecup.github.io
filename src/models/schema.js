@@ -29,5 +29,5 @@ const activitySchema = mongoose.Schema(
 })
 
 mongoose.model("asset", assetSchema);
-mongoose.model("user", userSchema);
+mongoose.model("users", userSchema);
 mongoose.model("activity", activitySchema);
