@@ -1,0 +1,25 @@
+{
+  "name": "kopheecup",
+  "version": "1.0.0",
+  "description": "art dump",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheang-haoyuan/cheang-haoyuan.github.io.git"
+  },
+  "keywords": [
+    "kopheecup"
+  ],
+  "author": "Hao Yuan Cheang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io/issues"
+  },
+  "homepage": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
