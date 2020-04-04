@@ -13,7 +13,16 @@ const assetSchema = mongoose.Schema(
       }
   });
 
-const activitySchema = mongoose.Schema({
+const userSchema = mongoose.Schema(
+  {
+  "password": String,
+  "email": String,
+  "firstname": String,
+  "lastname": String,
+});
+
+const activitySchema = mongoose.Schema(
+  {
   "sid": String,
   "uid": String,
   "heartbeat": Date
