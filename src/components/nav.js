@@ -1,4 +1,5 @@
 import React from "react";
+import {Intro, Gallery, Contact} from "./buttons.js";
 
 class Nav extends React.Component {
   render() {
@@ -6,9 +7,9 @@ class Nav extends React.Component {
       <div className="Nav">
   			<img src="../../src/assets/images/menu.png" className="menu" id="menu-btn" alt="menu" />
   			<div className="nav-link">
-  				<span className="nav-link-btn" id="about-us-btn-nav">Intro</span>
-  				<span className="nav-link-btn" id="gallery-btn-nav">Gallery</span>
-  				<span className="nav-link-btn" id="login-btn-nav">Contact</span>
+  				<Intro />
+  				<Gallery />
+  				<Contact />
   			</div>
   			<img src="../src/assets/images/logo.svg" className="logo hide" id="logo" alt="logo" />
       </div>
