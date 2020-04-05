@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1024px) {
+  #home-box img{
+    width: 50%;
+  }
+
+  .headtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    .headtitle .name {
+      font-size: 24pt;
+    }
+
+    .headtitle .tagline {
+      font-size: 12pt;
+    }
+
+}
+@media only screen and (max-width: 750px) {
+
+  .headtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+	.Nav .logo {
+		left: 20px;
+		width: 100px;
+	}
+
+	.Nav .logo:active {
+		opacity: 1;
+	}
+
+	.nav-link {
+		display: none;
+	}
+
+  .Nav .menu {
+    display: block;
+    right: 60px;
+  }
