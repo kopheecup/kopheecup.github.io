@@ -77,6 +77,10 @@ body {
 	right: 90px;
 }
 
+  .show {
+    display: block !important;
+  }
+
 	.nav-link-btn {
 		font-family: body;
 		font-size: 20px;
