@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io/issues"
   },
-  "homepage": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io/",
+  "homepage": "https://github.com/cheang-haoyuan/cheang-haoyuan.github.io/public/",
   "dependencies": {
     "babel": "^6.23.0",
     "build": "^0.1.4",
