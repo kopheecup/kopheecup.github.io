@@ -26,7 +26,7 @@ app.use('/', express.static('public'));
 
 // Capture API calls
 
-const routes = require('./src/routes/routes.js');
+const routes = require('./src/services/routes/routes.js');
 app.use('/api', routes)
 
 // Capture invalid entrypoints

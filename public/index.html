@@ -1,34 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<title>豆腐花</title>
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link rel='icon' href='favicon.ico' type='image/x-icon'/>
-	<link href="./src/index.css" rel="stylesheet" />
-	<link href="./src/responsive.css" rel="stylesheet" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
 	<meta charset="utf-8" />
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/>
+	<link href="../src/index.css" rel="stylesheet" />
+	<link href="../src/responsive.css" rel="stylesheet" />
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+	<script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
 </head>
 
-<div class="nav">
-		<img src="./assets/images/menu.png" class="menu" id="menu-btn" />
-		<div class="nav-link">
-			<span class="nav-link-btn" id="about-us-btn-nav">Intro</span>
-			<span class="nav-link-btn" id="gallery-btn-nav">Gallery</span>
-			<span class="nav-link-btn" id="login-btn-nav">Contact</span>
+<body>
+
+	<div class="header">
+		<div class="headtitle">
+			<center class="name">豆腐花</center>
+			<center class="tagline">
+				(Toufoofah)<br><br>
+				Stress fueled doodler
+			</center>
 		</div>
-		<img src="./assets/images/logo.svg" class="logo hide" id="logo" />
 	</div>
 
-<body>
+	<div id="body">
+		<script type="text/babel">
+	      // React code will go here
+	  </script>
+	</div>
+
+	<div class="content">
+		<p class="title">
+			ᕕ ( ᐛ ) ᕗ
+		</p>
+		<p>
+			Hellu, welcome. <br>
+			This is a place where I dump my doodles.
+			You may see it as a portfolio, as a gallery,
+			whatever. I don't really care.
+			so yeh. Have fun, enjoy. <br>
+		</p>
+	</div>
+
 	<script src="./public/src/lib/init.js"></script>
 	<script src="./public/src/lib/ui.js"></script>
 	<script src="./public/src/lib/user.js"></script>
 	<script src="./public/src/lib/search.js"></script>
 	<script src="./public/src/lib/asset.js"></script>
 	<script src="./public/src/app.js"></script>
+
 </body>
 
 </html>
