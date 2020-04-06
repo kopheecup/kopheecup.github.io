@@ -18,11 +18,11 @@ app.use(bodyParser.urlencoded({
 
 // DB SETUP
 
-require('./src/models/db.js');
+require('./src/services/models/db.js');
 
 // Serve static files under root path
 
-app.use('/', express.static('public'));
+app.use('/', express.static('./'));
 
 // Capture API calls
 

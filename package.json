@@ -4,8 +4,8 @@
   "description": "art dump",
   "main": "app.js",
   "scripts": {
-    "start": "npm app.js",
-    "test": "no testing files",
+    "start": "node app.js",
+    "test": "no testing files"
   },
   "repository": {
     "type": "git",
