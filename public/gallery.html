@@ -26,7 +26,7 @@
 
 
 	<div class="Nav">
-			<img src="../src/assets/images/icons_br.png" class="menu" id="menu-btn" />
+			<img src="../src/assets/images/icons_p.png" class="menu" id="menu-btn" />
 			<div class="nav-link" id="nav-link">
 				<span class="nav-link-btn" id="about-btn-nav">Bout me</span>
 				<span class="nav-link-btn active" id="gallery-btn-nav">Gallery</span>
@@ -35,7 +35,34 @@
 	</div>
 
 	<div class="content">
-		
+		<center id="submit-btn">Add works</center>
+
+		<div id="submit-box" class="overlay ">
+			<div class="full-frame">
+
+					<span class="submit-item">Password</span> <br>
+					<input type="password" id="password" name="password" /> <br>
+					<input type="button" class="pw-submit" id="pw-submit" value="Submit" /> <br>
+					<span id="pw-info"></span>
+
+				<div class="submission hide" id="submission">
+					<span class="submit-item">Title</span> <br>
+					<input type="text" id="artname" name="artname" /> <br>
+					<span class="submit-item">Date</span> <br>
+					<input type="date" id="artdate" name="artdate" /> <br>
+					<span class="submit-item">Description</span> <br>
+					<textarea id="description" name="description"> </textarea> <br>
+					<span class="submit-item">File</span> <br>
+					<input type="file" id="image" name="image" /> <br>
+					<input type="button" class="art-submit" id="art-submit" value="Submit" />
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="gallery">
+		</div>
 	</div>
 
 	<footer class="footer">
@@ -54,7 +81,7 @@
 	<script src="../src/js/lib/ui.js"></script>
 	<script src="./public/src/lib/user.js"></script>
 	<script src="./public/src/lib/search.js"></script>
-	<script src="./public/src/lib/asset.js"></script>
+	<script src="../src/js/lib/assets.js"></script>
 	<script src="./public/src/app.js"></script>
 </body>
 
