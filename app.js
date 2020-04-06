@@ -32,9 +32,9 @@ app.use('/api', routes)
 // Capture invalid entrypoints
 
 app.all('*', (req, res) => {
-	//	res.sendStatus(403);
+	// res.sendStatus(403);
 
-	res.redirect('/err.html');
+	res.redirect('/public/err.html');
 
 })
 

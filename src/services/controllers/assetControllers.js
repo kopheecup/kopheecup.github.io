@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var Asset = mongoose.model('asset');
+var Asset = mongoose.model('assets');
 var Activity = mongoose.model('activity');
 
 var getAsset = (req, res) => {

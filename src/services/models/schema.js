@@ -28,6 +28,6 @@ const activitySchema = mongoose.Schema(
   "heartbeat": Date
 })
 
-mongoose.model("asset", assetSchema);
+mongoose.model("assets", assetSchema);
 mongoose.model("users", userSchema);
 mongoose.model("activity", activitySchema);
