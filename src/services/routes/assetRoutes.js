@@ -19,4 +19,6 @@ assets.post('/', controller.createAsset);
 
 assets.put('/:id', controller.updateAssetById);
 
+assets.post('/', upload.single('img'), uploading);
+
 module.exports = assets;
