@@ -115,13 +115,13 @@ var veryUglyImplementationOfUpdatingAsset = (o, n) => {
 	return o;
 }
 
-var uploading = (req, res, err) => {
-  if (err) throw err
-  res.status(201).send()
-})
+// var uploading = (req, res, err) => {
+//   if (err) throw err
+//   res.status(201).send()
+// }
 
 module.exports.getAsset = getAsset;
 module.exports.getAssetById = getAssetById;
 module.exports.createAsset = createAsset;
 module.exports.updateAssetById = updateAssetById;
-module.exports.uploading = uploading;
+// module.exports.uploading = uploading;
