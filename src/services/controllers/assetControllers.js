@@ -2,6 +2,7 @@ var mongoose = require('mongoose');
 var Asset = mongoose.model('assets');
 var Activity = mongoose.model('activity');
 
+
 var getAsset = (req, res) => {
 
 	if (!req.cookies.sid) {
@@ -20,6 +21,7 @@ var getAsset = (req, res) => {
 	})
 }
 
+
 var getAssetById = (req, res) => {
 
 	if (!req.cookies.sid) {
@@ -27,6 +29,8 @@ var getAssetById = (req, res) => {
 	}
 
 	var id = req.params.id;
+	var dir = "/public/assets/tmp/";
+
 	Asset.findById(id, (err, asset) => {
 		if (err) {
 			return res.status(500).send();
@@ -34,9 +38,13 @@ var getAssetById = (req, res) => {
 		if (!asset) {
 			return res.status(404).send();
 		}
+
+		fs.writeFileSync(__dirname + dir + asset.name, asset.img.data);
+
 		return res.send(asset);
 	});
 }
+
 
 var createAsset = (req, res) => {
 
@@ -48,7 +56,16 @@ var createAsset = (req, res) => {
 		return res.status(403).send();
 	}
 
-	var newAsset = new Asset(req.body);
+	var newAsset = new Asset({
+			name: req.body.name,
+			date: req.body.date,
+			description: req.body.description,
+			path: req.body.path,
+			img: {
+				data: fs.readFileSync(__dirname + req.body.path),
+				contentType: req.body.img.type
+			}
+		})
 
 	newAsset.save((err, newAsset) => {
 		if (err) {
@@ -98,7 +115,13 @@ var veryUglyImplementationOfUpdatingAsset = (o, n) => {
 	return o;
 }
 
+var uploading = (req, res, err) => {
+  if (err) throw err
+  res.status(201).send()
+})
+
 module.exports.getAsset = getAsset;
 module.exports.getAssetById = getAssetById;
 module.exports.createAsset = createAsset;
 module.exports.updateAssetById = updateAssetById;
+module.exports.uploading = uploading;

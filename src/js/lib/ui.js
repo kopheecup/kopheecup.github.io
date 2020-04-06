@@ -1,9 +1,9 @@
-const ARTSIDEAPI = {
+const API = {
 	server: window.location.origin + "/api",
 	guestLogin: "/users/guest",
 	users: "/users",
 	heartbeat: "/users/heartbeat",
-	assets: "/assets",
+	assets: "/assets"
 }
 
   //ui functions
