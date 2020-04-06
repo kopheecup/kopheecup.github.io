@@ -1,11 +1,11 @@
 @font-face {
   font-family: body;
-  src: url("../../src/assets/fonts/Gotu-Regular.ttf");
+  src: url("../../assets/fonts/Gotu-Regular.ttf");
 }
 
 @font-face {
   font-family: title;
-  src: url("../../src/assets/fonts/XiaoWei-Regular.ttf");
+  src: url("../../assets/fonts/XiaoWei-Regular.ttf");
 }
 
 ::-webkit-scrollbar {

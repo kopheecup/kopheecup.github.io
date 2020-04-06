@@ -1,11 +1,11 @@
 @font-face {
   font-family: body;
-  src: url("../assets/fonts/Gotu-Regular.ttf");
+  src: url("../../assets/fonts/Gotu-Regular.ttf");
 }
 
 @font-face {
   font-family: title;
-  src: url("../assets/fonts/XiaoWei-Regular.ttf");
+  src: url("../../assets/fonts/XiaoWei-Regular.ttf");
 }
 
 ::-webkit-scrollbar {
@@ -35,7 +35,7 @@ body {
 	height: 60%;
   margin: -25px 0px;
   padding: 30px 0px;
-  background-image: url("../assets/images/Untitled64-1.png");
+  background-image: url("../../assets/images/Untitled64-1.png");
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
