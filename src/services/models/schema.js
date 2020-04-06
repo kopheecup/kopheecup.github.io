@@ -7,11 +7,7 @@ const assetSchema = mongoose.Schema(
     "date": String,
     "description": String,
     "path": String,
-    "img":
-      {
-        data: Buffer,
-        contentType: String
-      }
+    "imgURL": String
   });
 
 const userSchema = mongoose.Schema(
