@@ -1,8 +1,25 @@
+const ARTSIDEAPI = {
+	server: window.location.origin + "/api",
+	guestLogin: "/users/guest",
+	users: "/users",
+	heartbeat: "/users/heartbeat",
+	assets: "/assets",
+}
+
   //ui functions
 
 var ui = bindUIs();
 
   // actions
+
+document.addEventListener('keydown', (event) => {
+	if (event.keyCode == 27) {
+    as.submitBox.classList.remove("overlay-active");
+  }
+}
+)
+
+
 ui.homeBtn.addEventListener('click', goHome);
 ui.introBtn.addEventListener('click', toIntro);
 ui.menuBtn.addEventListener('click', toggleMenu);
@@ -17,12 +34,18 @@ function bindUIs() {
   ui.introBtn = document.getElementById("about-btn-nav");
   ui.galleryBtn = document.getElementById("gallery-btn-nav");
   ui.contactBtn = document.getElementById("contact-btn-nav");
+  ui.closeBtns = document.getElementsByClassName("close-btn");
 
   ui.navLinks = document.getElementById("nav-link");
 
   ui.menuBtn = document.getElementById("menu-btn");
 
   return ui;
+}
+
+for (var i = 0; i < ui.closeBtns.length; i++) {
+	ui.closeBtns[i].addEventListener('click', closeOverlay);
+
 }
 
   //functions
@@ -61,4 +84,16 @@ function toggleMenu() {
     ui.navLinks.classList.add("show");
   }
 
+}
+
+
+function closeOverlay(element) {
+  var target = event.currentTarget;
+
+	while (target.parentElement) {
+		if (target.parentElement.classList.contains("overlay-active")) {
+			target.parentElement.classList.remove("overlay-active");
+		}
+		target = target.parentElement;
+  }
 }

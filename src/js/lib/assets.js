@@ -23,6 +23,7 @@ function bindAssets() {
   return as;
 }
 
+
   // functions
 
 function addWork() {
@@ -44,4 +45,9 @@ function checkPw(event) {
     as.submission.classList.remove("hide");
     as.pwErrMsg.innerHTML = "";
   }
+}
+
+
+function addAsset() {
+
 }

@@ -289,7 +289,6 @@
 
   	.overlay-active {
   		display: block;
-
   		animation: overlay-on;
   		animation-duration: 300ms;
   	}
@@ -309,7 +308,6 @@
 
 .submit-item {
   line-height: 30px;
-  padding: 30px;
 }
 
 .pw-submit {
@@ -378,4 +376,9 @@ input[type=file] {
     margin: 8px 0;
     height: 60px;
     overflow: scroll;
+  }
+
+  .close-btn {
+    cursor: pointer;
+    font-size: 20pt;
   }
