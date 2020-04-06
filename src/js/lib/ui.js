@@ -23,6 +23,7 @@ var ui = bindUIs();
 ui.homeBtn.addEventListener('click', goHome);
 ui.introBtn.addEventListener('click', toIntro);
 ui.galleryBtn.addEventListener('click', toGallery);
+ui.contactBtn.addEventListener('click', toContact);
 ui.menuBtn.addEventListener('click', toggleMenu);
 
   //initialisation
@@ -81,6 +82,20 @@ function toGallery() {
 
 }
 
+function toContact() {
+  if (ui.contactBtn.classList.contains("active")) {
+    return;
+  }
+  else if (ui.introBtn.classList.contains("active")) {
+    window.location.href = "./contact.html";
+  }
+  else if (ui.galleryBtn.classList.contains("active")) {
+    window.location.href = "./contact.html";
+  } else {
+    window.location.href = "./public/contact.html";
+  }
+
+}
 
 function goHome() {
   if (ui.homeBtn.classList.contains("home")) {

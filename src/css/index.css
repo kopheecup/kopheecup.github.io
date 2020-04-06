@@ -110,6 +110,7 @@ body {
 .nav-link {
   width: 100%;
   text-align: center;
+  padding: 5px 0px;
 }
 
   .show {

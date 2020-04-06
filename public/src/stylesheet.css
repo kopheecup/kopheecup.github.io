@@ -73,8 +73,18 @@
     cursor: default;
   }
 
+  #contact {
+    margin: 0;
+    background-color: rgb(108, 108, 108);
+    display: flex;
+    flex-direction: column;
+  }
 
-
+    #contact .active {
+      color: #FFF !important;
+      background-color: rgb(108, 108, 108);
+      cursor: default;
+    }
 
 
  /* General CSS */
@@ -164,6 +174,10 @@
       color: rgb(105, 057, 086);
     }
 
+    #contact .nav-link-btn {
+      color: rgb(108, 108, 108);
+    }
+
     #intro .nav-link-btn:hover {
       color: #FFF;
       background-color: rgb(156, 109, 097);
@@ -172,6 +186,11 @@
     #gallery .nav-link-btn:hover {
       color: #FFF;
       background-color: rgb(105, 057, 086);
+    }
+
+    #contact .nav-link-btn:hover {
+      color: #FFF;
+      background-color: rgb(108, 108, 108);
     }
 
 .hide {
