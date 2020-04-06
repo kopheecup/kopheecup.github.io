@@ -24,13 +24,39 @@
 		background: rgba(255, 255, 255, 0.5);
 }
 
+ /* page specific */
 
-body {
+#intro {
   margin: 0;
   background-color: rgb(156, 109, 097);
   display: flex;
   flex-direction: column;
 }
+
+ #intro .active {
+   color: #FFF !important;
+   background-color: rgb(156, 109, 097);
+   cursor: default;
+ }
+
+#gallery {
+  margin: 0;
+  background-color: rgb(105, 057, 086);
+  display: flex;
+  flex-direction: column;
+}
+
+  #gallery .active {
+    color: #FFF !important;
+    background-color: rgb(105, 057, 086);
+    cursor: default;
+  }
+
+
+
+
+
+ /* General CSS */
 
 .header {
   background-color: #FFF;
@@ -85,13 +111,6 @@ body {
 		display: none;
 	}
 
-		.Nav img:active {
-			opacity: 0.5;
-		}
-		.Nav .nav-active {
-			opacity: 0.5;
-		}
-
 
 .nav-link {
   width: 100%;
@@ -112,21 +131,27 @@ body {
     padding: 0px 40px;
     margin: 0px auto;
 		cursor: pointer;
-		color: rgb(156, 109, 097);
     border-radius: 50px;
     transition: 0.5s;
 	}
 
-  .active {
-    color: #FFF;
-    background-color: rgb(156, 109, 097);
-    cursor: default;
-  }
+    #intro .nav-link-btn {
+      color: rgb(156, 109, 097);
+    }
 
-  .nav-link-btn:hover {
-    color: #FFF;
-    background-color: rgb(156, 109, 097);
-  }
+    #gallery .nav-link-btn {
+      color: rgb(105, 057, 086);
+    }
+
+    #intro .nav-link-btn:hover {
+      color: #FFF;
+      background-color: rgb(156, 109, 097);
+    }
+
+    #gallery .nav-link-btn:hover {
+      color: #FFF;
+      background-color: rgb(105, 057, 086);
+    }
 
 .hide {
 	display: none;
