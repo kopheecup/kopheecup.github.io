@@ -12,16 +12,17 @@ var ui = bindUIs();
 
   // actions
 
-document.addEventListener('keydown', (event) => {
-	if (event.keyCode == 27) {
-    as.submitBox.classList.remove("overlay-active");
-  }
-}
-)
+// document.addEventListener('keydown', (event) => {
+// 	if (event.keyCode == 27) {
+//     as.submitBox.classList.remove("overlay-active");
+//   }
+// }
+// )
 
 
 ui.homeBtn.addEventListener('click', goHome);
 ui.introBtn.addEventListener('click', toIntro);
+ui.galleryBtn.addEventListener('click', toGallery);
 ui.menuBtn.addEventListener('click', toggleMenu);
 
   //initialisation
@@ -34,7 +35,7 @@ function bindUIs() {
   ui.introBtn = document.getElementById("about-btn-nav");
   ui.galleryBtn = document.getElementById("gallery-btn-nav");
   ui.contactBtn = document.getElementById("contact-btn-nav");
-  ui.closeBtns = document.getElementsByClassName("close-btn");
+  // ui.closeBtns = document.getElementsByClassName("close-btn");
 
   ui.navLinks = document.getElementById("nav-link");
 
@@ -43,10 +44,10 @@ function bindUIs() {
   return ui;
 }
 
-for (var i = 0; i < ui.closeBtns.length; i++) {
-	ui.closeBtns[i].addEventListener('click', closeOverlay);
-
-}
+// for (var i = 0; i < ui.closeBtns.length; i++) {
+// 	ui.closeBtns[i].addEventListener('click', closeOverlay);
+//
+// }
 
   //functions
 
@@ -61,6 +62,21 @@ function toIntro() {
     window.location.href = "./intro.html";
   } else {
     window.location.href = "./public/intro.html";
+  }
+
+}
+
+function toGallery() {
+  if (ui.galleryBtn.classList.contains("active")) {
+    return;
+  }
+  else if (ui.introBtn.classList.contains("active")) {
+    window.location.href = "./gallery.html";
+  }
+  else if (ui.contactBtn.classList.contains("active")) {
+    window.location.href = "./gallery.html";
+  } else {
+    window.location.href = "./public/gallery.html";
   }
 
 }

@@ -10,6 +10,7 @@ var as = bindAssets();
 as.submitBtn.addEventListener('click', addWork);
 as.pwBtn.addEventListener('click', checkPw);
 as.pw.addEventListener('keypress', (ev) => (ev.code === "Enter") ? checkPw() : null);
+as.submitArt.addEventListener('click', tmpPost);
 
   //initialisation
 
@@ -27,6 +28,7 @@ function bindAssets() {
   as.artDate = document.getElementById("artdate");
   as.artInfo = document.getElementById("description");
   as.art = document.getElementById("art").files[0];
+  as.submitArt = document.getElementById("art-submit");
 
   return as;
 }
@@ -55,6 +57,22 @@ function checkPw(event) {
   }
 }
 
+function tmpPost(e) {
+
+  e.preventDefault();
+  const file = document.getElementById('art').files;
+  const formData = new FormData();
+
+  formData.append('img', file[0]);
+
+  fetch('http://localhost:3000/', {
+    method: 'POST',
+    body: formData,
+  }).then(r => {
+    console.log(r);
+  })
+  console.log(file[0]);
+}
 
 function addAsset(event) {
   var name = as.artTitle.value;
@@ -68,28 +86,15 @@ function addAsset(event) {
 	var url = API.server + API.assets;
 
 	var data = {
-		name: email,
-    date:,
-		description: CryptoJS.MD5(password).toString()
+		name: as.artTitle.value,
+    date: as.artDate.value,
+		description: as.artInfo,
+    path: window.URL.createObjectURL(as.art),
+    img: {
+      data: as.art,
+      contentType: as.art.file.type
+    }
+
 	};
-
-	xhr.onreadystatechange = () => {
-		if (xhr.readyState == 4) {
-			if (xhr.status == 200) {
-				ui.loginEmail.value = "";
-				ui.loginPassword.value = "";
-				ui.loginSubmitBtn.value = "LOGIN";
-				ui.loginInfo.innerHTML = "Congratulations! Now please log in using the same credentials. ";
-			} else {
-				ui.loginInfo.innerHTML = "Whoops, something went wrong!";
-			}
-		}
-	}
-
-	xhr.open("POST", url, true);
-	xhr.setRequestHeader("Content-Type", "application/json");
-	xhr.send(JSON.stringify(data));
-  URL.revokeObjectURL(objectURL);
-}
 
 }
