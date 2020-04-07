@@ -22,10 +22,13 @@ document.addEventListener('keydown', (event) => {
 
 ui.homeBtn.addEventListener('click', goHome);
 ui.toufoofah.addEventListener('click', goHome);
+ui.logo.addEventListener('click', goHome);
 ui.introBtn.addEventListener('click', showIntro);
 ui.galleryBtn.addEventListener('click', showGallery);
 ui.contactBtn.addEventListener('click', showContact);
 ui.menuBtn.addEventListener('click', toggleMenu);
+
+window.addEventListener('scroll', stick);
 
   //initialisation
 
@@ -46,6 +49,8 @@ function bindUIs() {
   ui.closeBtns = document.getElementsByClassName("close-btn");
 
   ui.navLinks = document.getElementById("nav-link");
+	ui.navBar = document.getElementById("nav");
+	ui.logo = document.getElementById("logo");
 
   ui.menuBtn = document.getElementById("menu-btn");
 
@@ -129,6 +134,7 @@ function showIntro() {
 		ui.header.style.backgroundImage = "url('')";
 		ui.headtitle.classList.remove("home");
 		ui.homeBtn.innerHTML = "(Toufoofah)";
+		window.scrollTo(0, 0);
 
 	}
 }
@@ -152,6 +158,7 @@ function showGallery() {
 		ui.header.style.backgroundImage = "url('')";
 		ui.headtitle.classList.remove("home");
 		ui.homeBtn.innerHTML = "(Toufoofah)";
+		window.scrollTo(0, 0);
 
 	}
 }
@@ -175,16 +182,16 @@ function showContact() {
 		ui.header.style.backgroundImage = "url('')";
 		ui.headtitle.classList.remove("home");
 		ui.homeBtn.innerHTML = "(Toufoofah)";
+		window.scrollTo(0, 0);
 
 	}
 }
 
 function goHome() {
   if (ui.headtitle.classList.contains("home")) {
-    return;
+		window.scrollTo(0, 0);
 
   } else {
-		ui.introBtn.classList.remove("active");
 		ui.menuBtn.src = "./public/assets/images/menu.png";
 		ui.pagebody.style = {};
 		reset(ui.navLinks);
@@ -195,6 +202,7 @@ function goHome() {
 		ui.header.style = {};
 		ui.headtitle.classList.add("home");
 		ui.homeBtn.innerHTML = "<br>(Toufoofah)<br><br>Stress fueled doodler";
+		window.scrollTo(0, 0);
   }
 
 }
@@ -265,4 +273,17 @@ function reset(element) {
 	element.classList.remove("gallery");
 	element.classList.remove("contact");
 	element.classList.remove("intro");
+}
+
+function stick() {
+	var sticky = ui.navBar.offsetTop;
+
+	if (window.pageYOffset > sticky) {
+		ui.logo.classList.add("show");
+    ui.navBar.classList.add("sticky");
+
+  } else {
+		ui.logo.classList.remove("show");
+    ui.navBar.classList.remove("sticky");
+	}
 }

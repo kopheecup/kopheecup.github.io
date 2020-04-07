@@ -26,7 +26,8 @@
 		</div>
 	</div>
 
-	<div class="Nav">
+	<div class="Nav" id="nav">
+			<span class="logo" id="logo">豆腐花</span>
 			<img src="./public/assets/images/menu.png" class="menu" id="menu-btn" />
 			<div class="nav-link" id="nav-link">
 				<span class="nav-link-btn" id="about-btn-nav">Bout Me</span>
@@ -45,17 +46,24 @@
 			<p>
 				Hellu, welcome. <br>
 				This is a place where I dump my doodles.
-				You may see it as a portfolio, as a gallery,
+				You may see it as a portfolio, as an art dump,
 				whatever. I don't really care.
 				<br>
 				A word of warning, brace yourselves for my
 				dark humour, sarcasm, horrible spellings, and self deprecating jokes.
 				I literally have no control over those things soz.
-				This is not intended to be a professional blog :)
+				This is not a professional website :)
 				<br>
 				so yeh. Have fun, enjoy.
 				<br>
 			</p>
+			<p class="title">
+				Before going down the rabbit hole...
+			</p>
+			<p>
+				Here's some of my featured works, bit of a flavour of
+				<del>what's wrong with me</del> what you're gonna get yourself into.
+				<br> (♪ᐤฅˊ꒳ˋᐤ)ฅ ~ ❤⃛
 		</div>
 
 		<!-- intro -->
@@ -235,30 +243,6 @@
 
 		<!-- gallery -->
 		<div class="gallery-box hide" id="gallery-box">
-			<center id="submit-btn">Add works</center>
-
-			<div id="submit-box" class="overlay ">
-				<div class="full-frame">
-						<span class="submit-item close-btn">x</span> <br>
-						<span class="submit-item">Password</span> <br>
-						<input type="password" id="password" name="password" /> <br>
-						<input type="button" class="pw-submit" id="pw-submit" value="Submit" /> <br>
-						<span id="pw-info"></span>
-
-					<div class="submission hide" id="submission">
-						<span class="submit-item">Title</span> <br>
-						<input type="text" id="artname" name="artname" /> <br>
-						<span class="submit-item">Date</span> <br>
-						<input type="date" id="artdate" name="artdate" /> <br>
-						<span class="submit-item">Description</span> <br>
-						<textarea id="description" name="description"> </textarea> <br>
-						<span class="submit-item">URL</span> <br>
-						<input type="text" id="art" name="art" /> <br>
-						<input type="button" class="art-submit" id="art-submit" value="Submit" />
-					</div>
-				</div>
-			</div>
-
 			<div id="thumbnail-box">
 			</div>
 		</div>
@@ -267,11 +251,28 @@
 		<div class="contact-box" id="contact-box">
 			<p class="title">Bug Report</p>
 	    <p>
-	      Okay, so if you found any bugs on this website, please please plEASE
-	      PLEASE let me know. You can email me, or send me a message on any
-				social media listed below.
+	      Okay, so if you found any bugs on this website (or in the unlikely event
+				that you suspect any plagiarism - either done BY me or OF my works),
+				please please PLEASE let me know. You can email me, or send me a message
+				on any social media listed below.
 	      <br>
-	      
+			</p>
+			<p class="title">If there are no bugs...</p>
+			<p>
+				The same goes for any commisions/requests, or if you have any queries
+				regarding my works, fell free to pop me a message ᕕ( ᐛ )ᕗ. I'm
+				open to all criticisms - constructive or not - as well, fire away.
+				<br><br>
+				Or....
+				<br><br>
+				or you could always send me some love (´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀) i'd appreciate it very much.
+				<br>
+				<del>
+					imma soft bean pls be kind
+				</del>
+
+			</p>
+
 		</div>
 
 	</div>
@@ -291,8 +292,6 @@
 
 	<script src="./public/src/lib/init.js"></script>
 	<script src="./public/src/js/lib/ui.js"></script>
-	<script src="./public/src/lib/user.js"></script>
-	<script src="./public/src/lib/search.js"></script>
 	<script src="./public/src/js/lib/asset.js"></script>
 	<script src="./public/src/app.js"></script>
 </body>
