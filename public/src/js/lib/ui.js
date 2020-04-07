@@ -21,9 +21,10 @@ document.addEventListener('keydown', (event) => {
 
 
 ui.homeBtn.addEventListener('click', goHome);
-ui.introBtn.addEventListener('click', toIntro);
-ui.galleryBtn.addEventListener('click', toGallery);
-ui.contactBtn.addEventListener('click', toContact);
+ui.toufoofah.addEventListener('click', goHome);
+ui.introBtn.addEventListener('click', showIntro);
+// ui.galleryBtn.addEventListener('click', showGallery);
+// ui.contactBtn.addEventListener('click', showContact);
 ui.menuBtn.addEventListener('click', toggleMenu);
 
   //initialisation
@@ -31,7 +32,13 @@ ui.menuBtn.addEventListener('click', toggleMenu);
 function bindUIs() {
   var ui = {};
 
-  ui.content = document.getElementsByClassName("content");
+	ui.pagebody = document.getElementById("body");
+  ui.content = document.getElementById("content");
+	ui.home = document.getElementById("home-box");
+	ui.intro = document.getElementById("intro-box");
+	ui.gallery = document.getElementById("gallery-box");
+	ui.contact = document.getElementById("contact-box");
+
   ui.homeBtn = document.getElementById("home-btn")
   ui.introBtn = document.getElementById("about-btn-nav");
   ui.galleryBtn = document.getElementById("gallery-btn-nav");
@@ -42,6 +49,10 @@ function bindUIs() {
 
   ui.menuBtn = document.getElementById("menu-btn");
 
+	ui.header = document.getElementById("header");
+	ui.headtitle = document.getElementById("headtitle");
+	ui.toufoofah = document.getElementById("name");
+
   return ui;
 }
 
@@ -51,6 +62,11 @@ for (var i = 0; i < ui.closeBtns.length; i++) {
 }
 
   //functions
+
+const HomeColour ="rgb(030, 068, 126)" ;
+
+const GalColour = "rgb(105, 057, 086)";
+const ConColour = "rgb(108, 108, 108)";
 
 function toIntro() {
   if (ui.introBtn.classList.contains("active")) {
@@ -66,6 +82,30 @@ function toIntro() {
   }
 
 }
+
+
+function showIntro() {
+	const IntColour = "rgb(156, 109, 097)";
+
+	if (ui.introBtn.classList.contains("active")) {
+		return;
+	}
+	else {
+		ui.introBtn.classList.add("active");
+		ui.pagebody.style.backgroundColor = IntColour;
+		closeAll();
+		show(ui.intro);
+
+		// change header
+		ui.header.classList.remove("home");
+		ui.header.style.backgroundColor = "#FFF";
+		ui.header.style.backgroundImage = "url('')";
+		ui.headtitle.classList.remove("home");
+		ui.homeBtn.innerHTML = "(Toufoofah)";
+
+	}
+}
+
 
 function toGallery() {
   if (ui.galleryBtn.classList.contains("active")) {
@@ -98,10 +138,19 @@ function toContact() {
 }
 
 function goHome() {
-  if (ui.homeBtn.classList.contains("home")) {
+  if (ui.headtitle.classList.contains("home")) {
     return;
+
   } else {
-    window.location.href = "../index.html";
+		ui.introBtn.classList.remove("active");
+		ui.pagebody.style = {};
+		closeAll();
+		show(ui.home);
+
+		// change header
+		ui.header.style = {};
+		ui.headtitle.classList.add("home");
+		ui.homeBtn.innerHTML = "<br>(Toufoofah)<br><br>Stress fueled doodler";
   }
 
 }
@@ -127,4 +176,25 @@ function closeOverlay(element) {
 		}
 		target = target.parentElement;
   }
+}
+
+function closeAll() {
+
+	for (var i = 0; i < ui.content.children.length; i++) {
+		if (ui.content.children[i].classList.contains("hide")) {
+
+		} else {
+			hide(ui.content.children[i]);
+		}
+
+	}
+
+}
+
+function hide(element) {
+	element.classList.add("hide");
+}
+
+function show(element) {
+	element.classList.remove("hide");
 }

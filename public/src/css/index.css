@@ -30,48 +30,80 @@ body {
   background-color: rgb(030, 068, 126);
 }
 
+body .intro {
+  background-color: rgb(156, 109, 097);
+}
+
+ /* header settings */
 .header {
-	width: 100%;
-	height: 60%;
+  width: 100%;
+  height: 60%;
   margin: -25px 0px;
   padding: 30px 0px;
   background-image: url("../../assets/images/Untitled64-1.png");
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
-	/* background-color: rgb(030, 068, 126); */
-	color: rbg(030, 068, 126);
-	overflow: hidden;
-	z-index: 9999;
+  /* background-color: rgb(030, 068, 126); */
+  color: rbg(030, 068, 126);
+  overflow: hidden;
+  z-index: 9999;
 }
 
   .headtitle {
+    height: 100%;
+    text-align: left;
+    display: inline-block;
+    padding: 20px 20px;
+    color: rgb(030, 068, 126);
+    z-index: 40;
+  }
+
+      .headtitle .name {
+        padding-top: 20px;
+        font-family: title;
+        font-size: 40pt;
+        cursor: pointer;
+      }
+
+      .headtitle .tagline {
+        align-content: center;
+        font-family: title;
+        font-size: 14pt;
+        padding-bottom: 20px;
+        cursor: pointer;
+      }
+
+  .home {
     width: 30%;
     height: 100%;
-    vertical-align: middle;
-    margin: 30px 30px 30px 30px;
-    padding: 20px 10px 20px 10px;
+    text-align: center;
+    display: block;
+    margin: 30px;
+    padding: 50px 10px;
     border-radius: 10px;
     color: rgb(030, 068, 126);
     background-color: rgba(255, 211, 187, 0.7);
   }
 
-    .headtitle .name {
-      padding-top: 50px;
-      font-family: title;
-      font-size: 50pt;
-    }
+      .home .name {
+        padding-top: 50px;
+        font-family: title;
+        font-size: 50pt;
+        cursor: default;
+      }
 
-    .headtitle .tagline {
-      align-content: center;
-      font-family: title;
-      font-size: 14pt;
-      padding-bottom: 50px;
-    }
+      .home .tagline {
+        align-content: center;
+        font-family: title;
+        font-size: 14pt;
+        padding-bottom: 50px;
+        cursor: default;
+      }
+
 
 .Nav {
   width: 100%;
-  height: 50px;
   background-color: #FFF;
   position: ;
 }
@@ -106,6 +138,10 @@ body {
 			opacity: 0.5;
 		}
 
+    .show {
+      display: inline-block !important;
+      background-color: inherit;
+    }
 
 .nav-link {
   width: 100%;
@@ -113,10 +149,6 @@ body {
   padding: 5px 0px;
 }
 
-  .show {
-    display: inline-block !important;
-    background-color: inherit;
-  }
 
 	.nav-link-btn {
 		font-family: body;
@@ -137,7 +169,7 @@ body {
   }
 
 .hide{
-	display: none;
+	display: none !important;
 }
 
 .content {
@@ -153,6 +185,78 @@ body {
     font-family: title;
     font-size: 32pt;
   }
+
+  .profile img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .content .profile {
+    display: inline-flex;
+  }
+
+  .profile p {
+    padding-left: 30px;
+    margin: 0px;
+  }
+
+  .study img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .study span {
+    display: inline-block;
+  }
+
+  .content figcaption {
+    text-align: center;
+  }
+
+  .casual a {
+    color: inherit;
+  }
+
+  .interests figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .overlay {
+  	position: absolute;
+    top: 0px;
+    left: 0px;
+  	width: 100%;
+  	height: 100%;
+  	background: inherit;
+  	display: none;
+  	overflow-y: scroll;
+  	z-index: 20;
+    backdrop-filter: blur(5px);
+  	-webkit-backdrop-filter: blur(5px);
+    text-align: center;
+  }
+
+  	.overlay-active {
+  		display: block;
+  		animation: overlay-on;
+  		animation-duration: 300ms;
+  	}
+
+    .full-frame {
+    	position: relative;
+    	display: block;
+    	margin: 0px auto;
+    	padding: 70px 20px;
+    	width: calc(100% - 40px);
+    	max-width: 900px;
+    }
+
+    	.overlay-active .full-frame {
+    		animation: menu-item;
+    		animation-duration: 300ms;
+    	}
 
 .footer {
   padding: 20px 0px;
