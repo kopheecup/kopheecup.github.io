@@ -30,9 +30,6 @@ body {
   background-color: rgb(030, 068, 126);
 }
 
-body .intro {
-  background-color: rgb(156, 109, 097);
-}
 
  /* header settings */
 .header {
@@ -147,6 +144,7 @@ body .intro {
   width: 100%;
   text-align: center;
   padding: 5px 0px;
+  background-color: #FFF;
 }
 
 
@@ -168,6 +166,33 @@ body .intro {
     background-color: rgb(030, 068, 126);
   }
 
+  .intro .nav-link-btn {
+    color: rgb(156, 109, 097);
+  }
+
+    .intro .nav-link-btn:hover {
+      color: #FFF;
+      background-color: rgb(156, 109, 097);
+    }
+
+  .gallery .nav-link-btn {
+    color: rgb(105, 057, 086);
+  }
+
+    .gallery .nav-link-btn:hover {
+      color: #FFF;
+      background-color: rgb(105, 057, 086);
+    }
+
+  .contact .nav-link-btn {
+    color: rgb(108, 108, 108);
+  }
+
+    .contact .nav-link-btn:hover {
+      color: #FFF;
+      background-color: rgb(108, 108, 108);
+    }
+
 .hide{
 	display: none !important;
 }
@@ -175,7 +200,7 @@ body .intro {
 .content {
   font-family: body;
   color: #FFF;
-  padding: 60px;
+  padding: 90px 120px;
   margin-left: 30px;
   margin-right: 30px;
   flex: 1 0 auto;

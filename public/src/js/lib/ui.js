@@ -23,8 +23,8 @@ document.addEventListener('keydown', (event) => {
 ui.homeBtn.addEventListener('click', goHome);
 ui.toufoofah.addEventListener('click', goHome);
 ui.introBtn.addEventListener('click', showIntro);
-// ui.galleryBtn.addEventListener('click', showGallery);
-// ui.contactBtn.addEventListener('click', showContact);
+ui.galleryBtn.addEventListener('click', showGallery);
+ui.contactBtn.addEventListener('click', showContact);
 ui.menuBtn.addEventListener('click', toggleMenu);
 
   //initialisation
@@ -63,36 +63,63 @@ for (var i = 0; i < ui.closeBtns.length; i++) {
 
   //functions
 
-const HomeColour ="rgb(030, 068, 126)" ;
+// deprecated
 
-const GalColour = "rgb(105, 057, 086)";
-const ConColour = "rgb(108, 108, 108)";
-
-function toIntro() {
-  if (ui.introBtn.classList.contains("active")) {
-    return;
-  }
-  else if (ui.galleryBtn.classList.contains("active")) {
-    window.location.href = "./intro.html";
-  }
-  else if (ui.contactBtn.classList.contains("active")) {
-    window.location.href = "./intro.html";
-  } else {
-    window.location.href = "./public/intro.html";
-  }
-
-}
-
+// function toIntro() {
+//   if (ui.introBtn.classList.contains("active")) {
+//     return;
+//   }
+//   else if (ui.galleryBtn.classList.contains("active")) {
+//     window.location.href = "./intro.html";
+//   }
+//   else if (ui.contactBtn.classList.contains("active")) {
+//     window.location.href = "./intro.html";
+//   } else {
+//     window.location.href = "./public/intro.html";
+//   }
+//
+// }
+//
+// function toGallery() {
+//   if (ui.galleryBtn.classList.contains("active")) {
+//     return;
+//   }
+//   else if (ui.introBtn.classList.contains("active")) {
+//     window.location.href = "./gallery.html";
+//   }
+//   else if (ui.contactBtn.classList.contains("active")) {
+//     window.location.href = "./gallery.html";
+//   } else {
+//     window.location.href = "./public/gallery.html";
+//   }
+//
+// }
+//
+// function toContact() {
+//   if (ui.contactBtn.classList.contains("active")) {
+//     return;
+//   }
+//   else if (ui.introBtn.classList.contains("active")) {
+//     window.location.href = "./contact.html";
+//   }
+//   else if (ui.galleryBtn.classList.contains("active")) {
+//     window.location.href = "./contact.html";
+//   } else {
+//     window.location.href = "./public/contact.html";
+//   }
+//
+// }
 
 function showIntro() {
 	const IntColour = "rgb(156, 109, 097)";
 
-	if (ui.introBtn.classList.contains("active")) {
+	if (ui.navLinks.classList.contains("intro")) {
 		return;
 	}
 	else {
-		ui.introBtn.classList.add("active");
+		ui.menuBtn.src = "./public/assets/images/icons_br.png";
 		ui.pagebody.style.backgroundColor = IntColour;
+		intro(ui.navLinks);
 		closeAll();
 		show(ui.intro);
 
@@ -106,35 +133,50 @@ function showIntro() {
 	}
 }
 
+function showGallery() {
+	const GalColour = "rgb(105, 057, 086)";
 
-function toGallery() {
-  if (ui.galleryBtn.classList.contains("active")) {
-    return;
-  }
-  else if (ui.introBtn.classList.contains("active")) {
-    window.location.href = "./gallery.html";
-  }
-  else if (ui.contactBtn.classList.contains("active")) {
-    window.location.href = "./gallery.html";
-  } else {
-    window.location.href = "./public/gallery.html";
-  }
+	if (ui.navLinks.classList.contains("gallery")) {
+		return;
+	}
+	else {
+		ui.menuBtn.src = "./public/assets/images/icons_p.png";
+		ui.pagebody.style.backgroundColor = GalColour;
+		gall(ui.navLinks);
+		closeAll();
+		show(ui.gallery);
 
+		// change header
+		ui.header.classList.remove("home");
+		ui.header.style.backgroundColor = "#FFF";
+		ui.header.style.backgroundImage = "url('')";
+		ui.headtitle.classList.remove("home");
+		ui.homeBtn.innerHTML = "(Toufoofah)";
+
+	}
 }
 
-function toContact() {
-  if (ui.contactBtn.classList.contains("active")) {
-    return;
-  }
-  else if (ui.introBtn.classList.contains("active")) {
-    window.location.href = "./contact.html";
-  }
-  else if (ui.galleryBtn.classList.contains("active")) {
-    window.location.href = "./contact.html";
-  } else {
-    window.location.href = "./public/contact.html";
-  }
+function showContact() {
+	const ConColour = "rgb(108, 108, 108)";
 
+	if (ui.navLinks.classList.contains("contact")) {
+		return;
+	}
+	else {
+		ui.menuBtn.src = "./public/assets/images/icons_g.png";
+		ui.pagebody.style.backgroundColor = ConColour;
+		con(ui.navLinks);
+		closeAll();
+		show(ui.contact);
+
+		// change header
+		ui.header.classList.remove("home");
+		ui.header.style.backgroundColor = "#FFF";
+		ui.header.style.backgroundImage = "url('')";
+		ui.headtitle.classList.remove("home");
+		ui.homeBtn.innerHTML = "(Toufoofah)";
+
+	}
 }
 
 function goHome() {
@@ -143,7 +185,9 @@ function goHome() {
 
   } else {
 		ui.introBtn.classList.remove("active");
+		ui.menuBtn.src = "./public/assets/images/menu.png";
 		ui.pagebody.style = {};
+		reset(ui.navLinks);
 		closeAll();
 		show(ui.home);
 
@@ -197,4 +241,28 @@ function hide(element) {
 
 function show(element) {
 	element.classList.remove("hide");
+}
+
+function intro(element) {
+	element.classList.remove("gallery");
+	element.classList.remove("contact");
+	element.classList.add("intro");
+}
+
+function gall(element) {
+	element.classList.remove("intro");
+	element.classList.remove("contact");
+	element.classList.add("gallery");
+}
+
+function con(element) {
+	element.classList.remove("gallery");
+	element.classList.remove("intro");
+	element.classList.add("contact");
+}
+
+function reset(element) {
+	element.classList.remove("gallery");
+	element.classList.remove("contact");
+	element.classList.remove("intro");
 }
