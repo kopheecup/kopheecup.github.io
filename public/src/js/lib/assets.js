@@ -10,7 +10,7 @@ var as = bindAssets();
 as.submitBtn.addEventListener('click', addWork);
 as.pwBtn.addEventListener('click', checkPw);
 as.pw.addEventListener('keypress', (ev) => (ev.code === "Enter") ? checkPw() : null);
-as.submitArt.addEventListener('click', tmpPost);
+as.submitArt.addEventListener('click', addAsset);
 
   //initialisation
 
@@ -27,7 +27,7 @@ function bindAssets() {
   as.artTitle = document.getElementById("artname");
   as.artDate = document.getElementById("artdate");
   as.artInfo = document.getElementById("description");
-  as.art = document.getElementById("art").files[0];
+  as.art = document.getElementById("art");
   as.submitArt = document.getElementById("art-submit");
 
   return as;
@@ -57,30 +57,8 @@ function checkPw(event) {
   }
 }
 
-function tmpPost(e) {
-
-  e.preventDefault();
-  const file = document.getElementById('art').files;
-  const formData = new FormData();
-
-  formData.append('img', file[0]);
-
-  fetch('http://localhost:3000/', {
-    method: 'POST',
-    body: formData,
-  }).then(r => {
-    console.log(r);
-  })
-  console.log(file[0]);
-}
 
 function addAsset(event) {
-  var name = as.artTitle.value;
-  var date = as.artDate.value;
-  var description = as.artInfo;
-  var path = window.URL.createObjectURL(as.art);
-  var artData = as.art; //??
-  var artType = as.art.file.type;
 
   var xhr = new XMLHttpRequest();
 	var url = API.server + API.assets;
@@ -88,13 +66,22 @@ function addAsset(event) {
 	var data = {
 		name: as.artTitle.value,
     date: as.artDate.value,
-		description: as.artInfo,
-    path: window.URL.createObjectURL(as.art),
-    img: {
-      data: as.art,
-      contentType: as.art.file.type
-    }
-
+		description: as.artInfo.value,
+    imgURL: as.art.value
 	};
 
+  xhr.onreadystatechange = () => {
+		if (xhr.readyState == 4) {
+			if (xhr.status == 200) {
+				as.pw.value = "";
+				as.pwErrMsg.innerHTML = "Submission successful.";
+			} else {
+				as.pwErrMsg.innerHTML = "o nuuuuuu something went wrong :(";
+			}
+		}
+	}
+
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.send(JSON.stringify(data));
 }

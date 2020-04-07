@@ -56,16 +56,7 @@ var createAsset = (req, res) => {
 		return res.status(403).send();
 	}
 
-	var newAsset = new Asset({
-			name: req.body.name,
-			date: req.body.date,
-			description: req.body.description,
-			path: req.body.path,
-			img: {
-				data: fs.readFileSync(__dirname + req.body.path),
-				contentType: req.body.img.type
-			}
-		})
+	var newAsset = new Asset(req.body);
 
 	newAsset.save((err, newAsset) => {
 		if (err) {

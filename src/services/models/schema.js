@@ -6,7 +6,6 @@ const assetSchema = mongoose.Schema(
     "name": String,
     "date": String,
     "description": String,
-    "path": String,
     "imgURL": String
   });
 
