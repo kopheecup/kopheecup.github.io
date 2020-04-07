@@ -5,13 +5,16 @@ var user = {};
 
 var as = bindAssets();
 
+if (assets.length == 0) {
+    getAllAssets();
+}
+
   //actions
 
 as.submitBtn.addEventListener('click', addWork);
 as.pwBtn.addEventListener('click', checkPw);
 as.pw.addEventListener('keypress', (ev) => (ev.code === "Enter") ? checkPw() : null);
 as.submitArt.addEventListener('click', addAsset);
-
   //initialisation
 
 function bindAssets() {
@@ -29,6 +32,8 @@ function bindAssets() {
   as.artInfo = document.getElementById("description");
   as.art = document.getElementById("art");
   as.submitArt = document.getElementById("art-submit");
+
+  as.gallery = document.getElementById("thumbnail-box");
 
   return as;
 }
@@ -75,6 +80,8 @@ function addAsset(event) {
 			if (xhr.status == 200) {
 				as.pw.value = "";
 				as.pwErrMsg.innerHTML = "Submission successful.";
+        as.submission.classList.add("hide");
+
 			} else {
 				as.pwErrMsg.innerHTML = "o nuuuuuu something went wrong :(";
 			}
@@ -85,3 +92,52 @@ function addAsset(event) {
 	xhr.setRequestHeader("Content-Type", "application/json");
 	xhr.send(JSON.stringify(data));
 }
+
+function getAllAssets() {
+	assets = [];
+
+	var xhr = new XMLHttpRequest();
+	var url = API.server + API.assets;
+
+	xhr.onreadystatechange = () => {
+		if (xhr.readyState == 4 && xhr.status == 200) {
+			var res = JSON.parse(xhr.response);
+			res.forEach((asset) => {
+				const { _id, name, date, description, imgURL } = asset;
+
+				assets.push({
+					id: _id,
+					name: name,
+          description: description,
+					imgURL: imgURL
+				});
+			})
+		}
+	}
+
+	xhr.open("GET", url, true);
+	xhr.send();
+}
+
+function fillGallery(assets) {
+
+  for (var i = 0; 0 < as.gallery.children.length; i++) {
+    as.gallery.removeChild(as.gallery.children[i]);
+  }
+
+  assets.forEach((asset) => {
+		var thumb = document.createElement("img");
+		thumb.className = "preview";
+		thumb.src = `${asset.imgURL}`;
+		thumb.style.width = "200px";
+		thumb.style.height = "auto";
+
+		var id = asset.id ? asset.id: asset._id;
+		thumb.setAttribute("id", id);
+		//thumb.addEventListener('click', showInfo);
+
+		as.gallery.appendChild(thumb);
+	})
+}
+
+fillGallery(assets);

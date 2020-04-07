@@ -12,12 +12,12 @@ var ui = bindUIs();
 
   // actions
 
-// document.addEventListener('keydown', (event) => {
-// 	if (event.keyCode == 27) {
-//     as.submitBox.classList.remove("overlay-active");
-//   }
-// }
-// )
+document.addEventListener('keydown', (event) => {
+	if (event.keyCode == 27) {
+    as.submitBox.classList.remove("overlay-active");
+  }
+}
+)
 
 
 ui.homeBtn.addEventListener('click', goHome);
@@ -36,7 +36,7 @@ function bindUIs() {
   ui.introBtn = document.getElementById("about-btn-nav");
   ui.galleryBtn = document.getElementById("gallery-btn-nav");
   ui.contactBtn = document.getElementById("contact-btn-nav");
-  // ui.closeBtns = document.getElementsByClassName("close-btn");
+  ui.closeBtns = document.getElementsByClassName("close-btn");
 
   ui.navLinks = document.getElementById("nav-link");
 
@@ -45,10 +45,10 @@ function bindUIs() {
   return ui;
 }
 
-// for (var i = 0; i < ui.closeBtns.length; i++) {
-// 	ui.closeBtns[i].addEventListener('click', closeOverlay);
-//
-// }
+for (var i = 0; i < ui.closeBtns.length; i++) {
+	ui.closeBtns[i].addEventListener('click', closeOverlay);
+
+}
 
   //functions
 
