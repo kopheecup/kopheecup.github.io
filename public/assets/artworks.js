@@ -229,8 +229,7 @@ var ARTWORKS =
       "title":"The Sky II",
       "fileType":"png",
       "date":"19/01/2016",
-      "description":"Playing around with perspective with Sky,
-       one of my characters with galaxy hair and skies as her clothes.",
+      "description":"Playing around with perspective with Sky, one of my characters with galaxy hair and skies as her clothes.",
        "name":"skyagain",
        "collection":""
     },
@@ -489,7 +488,7 @@ var ARTWORKS =
     {
       "id":984157,
       "title":"Noel",
-      "fileType":"png",
+      "fileType":"jpg",
       "date":"14/11/2017",
       "description":"",
       "name":"noel",
@@ -705,7 +704,7 @@ var ARTWORKS =
     {
       "id":985597,
       "title":"",
-      "fileType":"jpg",
+      "fileType":"png",
       "date":"14/10/2018",
       "description":"",
       "name":"meclari",
