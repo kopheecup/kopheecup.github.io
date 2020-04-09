@@ -14,7 +14,7 @@ var ui = bindUIs();
 
 document.addEventListener('keydown', (event) => {
 	if (event.keyCode == 27) {
-    as.submitBox.classList.remove("overlay-active");
+    closeFrame();
   }
 }
 )
@@ -27,6 +27,7 @@ ui.introBtn.addEventListener('click', showIntro);
 ui.galleryBtn.addEventListener('click', showGallery);
 ui.contactBtn.addEventListener('click', showContact);
 ui.menuBtn.addEventListener('click', toggleMenu);
+ui.closeBtn.addEventListener('click', closeFrame);
 
 window.addEventListener('scroll', stick);
 
@@ -41,12 +42,13 @@ function bindUIs() {
 	ui.intro = document.getElementById("intro-box");
 	ui.gallery = document.getElementById("gallery-box");
 	ui.contact = document.getElementById("contact-box");
+	ui.body = document.getElementById("body");
 
   ui.homeBtn = document.getElementById("home-btn")
   ui.introBtn = document.getElementById("about-btn-nav");
   ui.galleryBtn = document.getElementById("gallery-btn-nav");
   ui.contactBtn = document.getElementById("contact-btn-nav");
-  ui.closeBtns = document.getElementsByClassName("close-btn");
+  ui.closeBtn = document.getElementById("close-btn");
 
   ui.navLinks = document.getElementById("nav-link");
 	ui.navBar = document.getElementById("nav");
@@ -59,11 +61,6 @@ function bindUIs() {
 	ui.toufoofah = document.getElementById("name");
 
   return ui;
-}
-
-for (var i = 0; i < ui.closeBtns.length; i++) {
-	ui.closeBtns[i].addEventListener('click', closeOverlay);
-
 }
 
   //functions
@@ -224,20 +221,20 @@ function toggleMenu() {
 }
 
 
-function closeOverlay(element) {
-  var target = event.currentTarget;
+function closeFrame() {
 
-	while (target.parentElement) {
-		if (target.parentElement.classList.contains("overlay-active")) {
-			target.parentElement.classList.remove("overlay-active");
-		}
-		target = target.parentElement;
-  }
+	for (var i = 0; 1 < as.fullFrame.children.length; i++) {
+	 as.fullFrame.removeChild(as.fullFrame.children[1]);
+	}
+
+	as.fullFrame.classList.remove("full-frame-active");
+	ui.body.classList.remove("lock");
+
 }
 
 function closeAll() {
 
-	for (var i = 0; i < ui.content.children.length; i++) {
+	for (var i = 1; i < ui.content.children.length; i++) {
 		if (ui.content.children[i].classList.contains("hide")) {
 
 		} else {
@@ -245,6 +242,8 @@ function closeAll() {
 		}
 
 	}
+
+	closeFrame();
 
 }
 

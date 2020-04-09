@@ -4,7 +4,7 @@ var ARTWORKS =
       "id":980917,
       "title":"together",
       "fileType":"png",
-      "date":"3/04/2020",
+      "date":"3/APR/2020",
       "description":"It was from a lineart I did back in 2019 and just. Forgot about it. Well mostly cause I do not want to colour it with my fingers that’s all. I still do not have a tablet back than and anything digital was done on my phone. I think my phone storage went out of space on multiple occasions cause my art files were too big lol.",
       "name":"together",
       "collection":""
@@ -13,7 +13,7 @@ var ARTWORKS =
       "id":980977,
       "title":"夜",
       "fileType":"png",
-      "date":"29/03/2020",
+      "date":"29/MAR/2020",
       "description":"My first ever big piece after getting a tablet hehehehehehe. I've always wanted to do a large canvas and a lot of amazing details. Unfortunately my skills are insufficient for such details so I went for just a big canvas. My favourite was actually the bookshelf, where I spent the most time on. I was pretty stressed my assignments at that time so this was actually my stress drawing. I drew the sky as well, but it wasnt that much fun just putting dots on your screen :)",
       "name":"night",
       "collection":"faceless"
@@ -22,7 +22,8 @@ var ARTWORKS =
       "id":981037,
       "title":"Lighting Practice",
       "fileType":"png",
-      "date":"27/03/2020","description":"I FINALLY GOT A DRAWING TABLET GUYS (It was Wacom Intuos). Say goodbye to drawing on my tiny as phone y'all this girl is moving on a bigger screeeeeeeeen! This is the first official drawing I did on my tablet and paint tool SAI. And wow, only now I know how good pain tool SAI was. I've been drawing on it since 2013 using only my mouse, track pad, and/or my touchscreen laptop before its screen broke and I can't draw on it anymore (rip)",
+      "date":"27/MAR/2020",
+      "description":"I FINALLY GOT A DRAWING TABLET GUYS (It was Wacom Intuos). Say goodbye to drawing on my tiny as phone y'all this girl is moving on a bigger screeeeeeeeen! This is the first official drawing I did on my tablet and paint tool SAI. And wow, only now I know how good pain tool SAI was. I've been drawing on it since 2013 using only my mouse, track pad, and/or my touchscreen laptop before its screen broke and I can't draw on it anymore (rip)",
       "name":"tablet",
       "collection":""
     },
@@ -30,7 +31,7 @@ var ARTWORKS =
       "id":981097,
       "title":"Biolumiscent",
       "fileType":"jpg",
-      "date":"22/02/2020",
+      "date":"22/FEB/2020",
       "description":"Last piece before I got esophageal ulcers and went on a hiatus for a month ;-; ye esophageal ulcers are a big pain and it hurts so muchhhhhh. I can't eat can't drink can't BREATHE can't sleep can't move yeh just... Don’t.",
       "name":"yuyoutako",
       "collection":""
@@ -39,7 +40,7 @@ var ARTWORKS =
       "id":981157,
       "title":"斯文(?)",
       "fileType":"jpg",
-      "date":"19/02/2020",
+      "date":"19/FEB/2020",
       "description":"Pose practice of some sorts? Haha I'm not that fond of graceful poses. What's the fun in that?? 大家穿汉服的时候是斯斯文文的呢，还是大大咧咧的?? 我就不知道啦，我又不是古人。",
       "name":"hanfu",
       "collection":""
@@ -48,7 +49,7 @@ var ARTWORKS =
       "id":981217,
       "title":"jui",
       "fileType":"jpg",
-      "date":"12/02/2020",
+      "date":"12/FEB/2020",
       "description":"Orange, grapes, and star fruit juice. I have no idea what tastes like but judging that it's from a carton it prolly tastes like sugar syrup and flavouring like any other.",
       "name":"jui",
       "collection":""
@@ -57,7 +58,7 @@ var ARTWORKS =
       "id":981277,
       "title":"ce",
       "fileType":"jpg",
-      "date":"14/02/2020",
+      "date":"14/FEB/2020",
       "description":"Well you know what I was doing on valentines now. (sigh). This is the second piece of the set 'JUICE', with its predecessor being 'jui'. Yeh I'm not the most creative with names ;-; Oh well. Initially I intended to draw orange and lychee juice, but my mind went blank and forgot how lychee looks, hence the rambutan you see here. Till this day i still can't recall what lychee looks like. let me know when you found out okay?",
       "name":"ce",
       "collection":""
@@ -66,7 +67,7 @@ var ARTWORKS =
       "id":981337,
       "title":"Layers",
       "fileType":"jpg",
-      "date":"11/02/2020",
+      "date":"11/FEB/2020",
       "description":"I've always wanted to try layered dye like this but my hair was always too short for it. Hmm when my hair is long enough I might give it a go~",
       "name":"hair",
       "collection":""
@@ -75,7 +76,7 @@ var ARTWORKS =
       "id":981397,
       "title":"Flower I",
       "fileType":"jpg",
-      "date":"4/02/2020",
+      "date":"4/FEB/2020",
       "description":"Trying flat colours for once~ It can be used as a phone backdrop. Best paired with 'Flower II'",
       "name":"flower2",
       "collection":""
@@ -84,7 +85,7 @@ var ARTWORKS =
       "id":981457,
       "title":"Flower II",
       "fileType":"jpg",
-      "date":"6/02/2020",
+      "date":"6/FEB/2020",
       "description":"Paired with 'Flower I', it can be a mobile phone backdrop :D",
       "name":"flower1",
       "collection":""
@@ -93,7 +94,7 @@ var ARTWORKS =
       "id":981517,
       "title":"Colour Sketch (Blue)",
       "fileType":"jpg",
-      "date":"25/12/2019",
+      "date":"25/DEC/2019",
       "description":"Not really sure what to drew, so I just started sketching and let everything flow.",
       "name":"bluesketch",
       "collection":""
@@ -102,7 +103,7 @@ var ARTWORKS =
       "id":981577,
       "title":"Colour Sketch (Pink)",
       "fileType":"jpg",
-      "date":"6/01/2020",
+      "date":"6/JAN/2020",
       "description":"Similarly, I was in quite an art block at that time. Just…let my hand go and see what happens. Well this happened.",
       "name":"pinksketch",
       "collection":""
@@ -111,7 +112,7 @@ var ARTWORKS =
       "id":981637,
       "title":"Colour Sketch (Blue II)",
       "fileType":"jpg",
-      "date":"10/01/2020",
+      "date":"10/JAN/2020",
       "description":"I'm quite fond of the date hueh. I want a person that could look at me like this hngg. I'd melt.",
       "name":"bluesketch2",
       "collection":""
@@ -120,7 +121,7 @@ var ARTWORKS =
       "id":981697,
       "title":"Mermay 2018",
       "fileType":"jpg",
-      "date":"0/05/2018",
+      "date":"0/MAY/2018",
       "description":"Mermay is a thing, I'd say? Not so sure what you'd call that but it is essentially a month of May, the art community draws mermaids under the tag #mermay. I'm not trendy, but I do like to join the flow sometimes :)",
       "name":"mermay2018",
       "collection":""
@@ -129,7 +130,7 @@ var ARTWORKS =
       "id":981757,
       "title":"Two",
       "fileType":"jpg",
-      "date":"30/10/2019",
+      "date":"30/OCT/2019",
       "description":"Experimenting with a new style of colouring on my phone, while being extremely stressed about assesments and exams ;D fun times. I quite like the style actually, it is quick and frankly quire stress relieving.",
       "name":"twopeopo",
       "collection":""
@@ -138,7 +139,7 @@ var ARTWORKS =
       "id":981817,
       "title":"No",
       "fileType":"jpg",
-      "date":"21/04/2019",
+      "date":"21/APR/2019",
       "description":"",
       "name":"no",
       "collection":"faceless"
@@ -174,7 +175,7 @@ var ARTWORKS =
       "id":982057,
       "title":"Suicide Prevention",
       "fileType":"jpg",
-      "date":"19/04/2019",
+      "date":"19/APR/2019",
       "description":"You know how in buildings with higher levels they usually limit how wide you can open your windows? Yeh I have a hypothesis that I could easily fit through those gaps.",
       "name":"window",
       "collection":"faceless"
@@ -183,7 +184,7 @@ var ARTWORKS =
       "id":982117,
       "title":"Insufficient",
       "fileType":"png",
-      "date":"19/03/2019",
+      "date":"19/MAR/2019",
       "description":"",
       "name":"notenough",
       "collection":"faceless"
@@ -192,7 +193,7 @@ var ARTWORKS =
       "id":982177,
       "title":"Look at Me",
       "fileType":"png",
-      "date":"29/06/2018",
+      "date":"29/JUN/2018",
       "description":"",
       "name":"lookatme",
       "collection":""
@@ -201,7 +202,7 @@ var ARTWORKS =
       "id":982237,
       "title":"Headless",
       "fileType":"jpg",
-      "date":"1/06/2018",
+      "date":"1/JUN/2018",
       "description":"Red eyeliners facinates me. I would wanna try, but in reality I reckon I might just look like someone from the peking opera.",
       "name":"redeye",
       "collection":""
@@ -210,7 +211,7 @@ var ARTWORKS =
       "id":982297,
       "title":"望",
       "fileType":"jpg",
-      "date":"21/04/2019",
+      "date":"21/APR/2019",
       "description":"instead of dark background, why not try minimal?",
       "name":"clari",
       "collection":"faceless"
@@ -219,7 +220,7 @@ var ARTWORKS =
       "id":982357,
       "title":"Queen of Hearts",
       "fileType":"png",
-      "date":"21/01/2016",
+      "date":"21/JAN/2016",
       "description":"one of the 52 cards series I doubt I'll ever finish hahaha",
       "name":"qofhearts",
       "collection":"52 cards"
@@ -228,7 +229,7 @@ var ARTWORKS =
       "id":982417,
       "title":"The Sky II",
       "fileType":"png",
-      "date":"19/01/2016",
+      "date":"19/JAN/2016",
       "description":"Playing around with perspective with Sky, one of my characters with galaxy hair and skies as her clothes.",
        "name":"skyagain",
        "collection":""
@@ -237,7 +238,7 @@ var ARTWORKS =
       "id":982477,
       "title":"The Sky I",
       "fileType":"png",
-      "date":"17/01/2016",
+      "date":"17/JAN/2016",
       "description":"The girl being the sky itself.",
       "name":"sky",
       "collection":""
@@ -246,7 +247,7 @@ var ARTWORKS =
       "id":982537,
       "title":"Bring Them Back",
       "fileType":"png",
-      "date":"19/07/2014",
+      "date":"19/JUL/2014",
       "description":"Little tribute during the time with the incidents with MH370 and MH17.",
       "name":"please",
       "collection":""
@@ -255,7 +256,7 @@ var ARTWORKS =
       "id":982597,
       "title":"Double",
       "fileType":"png",
-      "date":"21/04/2019",
+      "date":"21/APR/2019",
       "description":"A little distraction during assesment times.",
       "name":"double",
       "collection":""
@@ -264,7 +265,7 @@ var ARTWORKS =
       "id":982657,
       "title":"Snow",
       "fileType":"jpg",
-      "date":"19/04/2019",
+      "date":"19/APR/2019",
       "description":"It's getting cold lately. I do not like it.",
       "name":"snow",
       "collection":""
@@ -273,7 +274,7 @@ var ARTWORKS =
       "id":982717,
       "title":"無题無目",
       "fileType":"jpg",
-      "date":"3/05/2019",
+      "date":"3/MAY/2019",
       "description":"一目了然，不是吗？",
       "name":"noeye",
       "collection":""
@@ -282,7 +283,7 @@ var ARTWORKS =
       "id":982777,
       "title":"Untitled",
       "fileType":"png",
-      "date":"29/07/2018",
+      "date":"29/JUL/2018",
       "description":"tired",
       "name":"ugh",
       "collection":""
@@ -291,7 +292,7 @@ var ARTWORKS =
       "id":982837,
       "title":"Losing My Mind",
       "fileType":"jpg",
-      "date":"17/05/2018",
+      "date":"17/MAY/2018",
       "description":"",
       "name":"headless",
       "collection":""
@@ -300,7 +301,7 @@ var ARTWORKS =
       "id":982897,
       "title":"lost my mind",
       "fileType":"jpg",
-      "date":"20/05/2018",
+      "date":"20/MAY/2018",
       "description":"",
       "name":"pastelheadless",
       "collection":""
@@ -309,7 +310,7 @@ var ARTWORKS =
       "id":982957,
       "title":"Winston",
       "fileType":"jpg",
-      "date":"7/05/2018",
+      "date":"7/MAY/2018",
       "description":"A character from a RPG script that never got to finish",
       "name":"winston2",
       "collection":""
@@ -318,7 +319,7 @@ var ARTWORKS =
       "id":983017,
       "title":"WInston",
       "fileType":"png",
-      "date":"5/05/2018",
+      "date":"5/MAY/2018",
       "description":"Winston, a character from a long dead RPG script.",
       "name":"winston",
       "collection":""
@@ -327,7 +328,7 @@ var ARTWORKS =
       "id":983077,
       "title":"俯",
       "fileType":"png",
-      "date":"30/04/2018",
+      "date":"30/APR/2018",
       "description":"I like drawing my highschool uniform cause they're just…so easy to draw.",
       "name":"down",
       "collection":""
@@ -336,7 +337,7 @@ var ARTWORKS =
       "id":983137,
       "title":"仰",
       "fileType":"png",
-      "date":"30/04/2018",
+      "date":"30/APR/2018",
       "description":"I quite like to colour red eyes.",
       "name":"up",
       "collection":""
@@ -345,7 +346,7 @@ var ARTWORKS =
       "id":983197,
       "title":"拥",
       "fileType":"png",
-      "date":"22/04/2018",
+      "date":"22/APR/2018",
       "description":"",
       "name":"huggo",
       "collection":""
@@ -354,7 +355,7 @@ var ARTWORKS =
       "id":983257,
       "title":"星",
       "fileType":"png",
-      "date":"17/03/2019",
+      "date":"17/MAR/2019",
       "description":"",
       "name":"see",
       "collection":"faceless"
@@ -363,7 +364,7 @@ var ARTWORKS =
       "id":983317,
       "title":"Experiment",
       "fileType":"jpg",
-      "date":"29/10/2019",
+      "date":"29/OCT/2019",
       "description":"My first digital art for semester two. I overloaded this semester (i.e. taking 5 subjects instead of the usual 4) and boii was it hectic. ",
       "name":"exams",
       "collection":""
@@ -372,7 +373,7 @@ var ARTWORKS =
       "id":983377,
       "title":"路边摊",
       "fileType":"jpg",
-      "date":"15/01/2020",
+      "date":"15/JAN/2020",
       "description":"家乡里，街边会有些路边摊，有的卖包子，有的是饮料。我最喜欢的是卖豆花的档口，暖暖甜甜，晚膳过后步行过去买一碗，心情舒畅。",
       "name":"toufoofah",
       "collection":""
@@ -381,7 +382,7 @@ var ARTWORKS =
       "id":983437,
       "title":"Nyan",
       "fileType":"jpg",
-      "date":"19/01/2020",
+      "date":"19/JAN/2020",
       "description":"喵",
       "name":"nyan",
       "collection":""
@@ -390,7 +391,7 @@ var ARTWORKS =
       "id":983497,
       "title":"Spades A",
       "fileType":"png",
-      "date":"30/09/2014",
+      "date":"30/SEP/2014",
       "description":"Fist every instance of 52 cards series. Was dedicated to do all 52 of them, now not anymore ;)",
       "name":"spadesA",
       "collection":"52 cards"
@@ -408,7 +409,7 @@ var ARTWORKS =
       "id":983617,
       "title":"Floral II",
       "fileType":"png",
-      "date":"27/02/2016",
+      "date":"27/FEB/2016",
       "description":"",
       "name":"floral2",
       "collection":"flowers"
@@ -417,7 +418,7 @@ var ARTWORKS =
       "id":983677,
       "title":"Floral III",
       "fileType":"png",
-      "date":"29/02/2016",
+      "date":"29/FEB/2016",
       "description":"",
       "name":"floral3",
       "collection":"flowers"
@@ -426,7 +427,7 @@ var ARTWORKS =
       "id":983737,
       "title":"Floral I",
       "fileType":"png",
-      "date":"21/02/2016",
+      "date":"21/FEB/2016",
       "description":"",
       "name":"floral1",
       "collection":"flowers"
@@ -435,7 +436,7 @@ var ARTWORKS =
       "id":983797,
       "title":"Lighting Practice",
       "fileType":"png",
-      "date":"27/11/2017",
+      "date":"27/NOV/2017",
       "description":"",
       "name":"light",
       "collection":""
@@ -444,7 +445,7 @@ var ARTWORKS =
       "id":983857,
       "title":"Rose",
       "fileType":"jpg",
-      "date":"26/10/2017",
+      "date":"26/OCT/2017",
       "description":"",
       "name":"rose",
       "collection":"flowers"
@@ -453,7 +454,7 @@ var ARTWORKS =
       "id":983917,
       "title":"Stripes",
       "fileType":"png",
-      "date":"16/06/2017",
+      "date":"16/JUN/2017",
       "description":"",
       "name":"stripes",
       "collection":"flowers"
@@ -462,7 +463,7 @@ var ARTWORKS =
       "id":983977,
       "title":"Umbrella I",
       "fileType":"png",
-      "date":"17/08/2017",
+      "date":"17/AUG/2017",
       "description":"",
       "name":"umbrella",
       "collection":"flowers"
@@ -471,7 +472,7 @@ var ARTWORKS =
       "id":984037,
       "title":"Umbrella II",
       "fileType":"png",
-      "date":"19/08/2017",
+      "date":"19/AUG/2017",
       "description":"",
       "name":"umbrella2",
       "collection":"flowers"
@@ -480,7 +481,7 @@ var ARTWORKS =
       "id":984097,
       "title":"Melodia",
       "fileType":"png",
-      "date":"14/11/2017",
+      "date":"14/NOV/2017",
       "description":"",
       "name":"melodia",
       "collection":""
@@ -489,7 +490,7 @@ var ARTWORKS =
       "id":984157,
       "title":"Noel",
       "fileType":"jpg",
-      "date":"14/11/2017",
+      "date":"14/NOV/2017",
       "description":"",
       "name":"noel",
       "collection":""
@@ -498,7 +499,7 @@ var ARTWORKS =
       "id":984217,
       "title":"Sebastian",
       "fileType":"png",
-      "date":"15/11/2017",
+      "date":"15/NOV/2017",
       "description":"",
       "name":"sebastian",
       "collection":""
@@ -507,7 +508,7 @@ var ARTWORKS =
       "id":984277,
       "title":"Selina",
       "fileType":"png",
-      "date":"16/05/2018",
+      "date":"16/MAY/2018",
       "description":"",
       "name":"selena",
       "collection":""
@@ -516,7 +517,7 @@ var ARTWORKS =
       "id":984337,
       "title":"Winter",
       "fileType":"png",
-      "date":"1/07/2017",
+      "date":"1/JUL/2017",
       "description":"",
       "name":"winter",
       "collection":"flowers"
@@ -525,7 +526,7 @@ var ARTWORKS =
       "id":984397,
       "title":"Mothers' Day 2016",
       "fileType":"png",
-      "date":"8/05/2017",
+      "date":"8/MAY/2017",
       "description":"",
       "name":"mothersday2016",
       "collection":"flowers"
@@ -534,7 +535,7 @@ var ARTWORKS =
       "id":984457,
       "title":"Lighting Practice",
       "fileType":"png",
-      "date":"18/11/2018",
+      "date":"18/NOV/2018",
       "description":"",
       "name":"shade",
       "collection":""
@@ -543,7 +544,7 @@ var ARTWORKS =
       "id":984517,
       "title":"Cheese",
       "fileType":"png",
-      "date":"14/01/2018",
+      "date":"14/JAN/2018",
       "description":"",
       "name":"cheese",
       "collection":""
@@ -552,7 +553,7 @@ var ARTWORKS =
       "id":984577,
       "title":"Group Photo",
       "fileType":"png",
-      "date":"29/11/2017",
+      "date":"29/NOV/2017",
       "description":"",
       "name":"partay",
       "collection":""
@@ -561,7 +562,7 @@ var ARTWORKS =
       "id":984637,
       "title":"Lilies",
       "fileType":"png",
-      "date":"8/01/2018",
+      "date":"8/JAN/2018",
       "description":"",
       "name":"sit",
       "collection":"flowers"
@@ -570,7 +571,7 @@ var ARTWORKS =
       "id":984697,
       "title":"Noname",
       "fileType":"png",
-      "date":"28/06/2016",
+      "date":"28/JUN/2016",
       "description":"",
       "name":"noname",
       "collection":"flowers"
@@ -579,7 +580,7 @@ var ARTWORKS =
       "id":984757,
       "title":"Noname II",
       "fileType":"jpg",
-      "date":"28/06/2016",
+      "date":"28/JUN/2016",
       "description":"",
       "name":"noname2",
       "collection":"flowers"
@@ -588,7 +589,7 @@ var ARTWORKS =
       "id":984817,
       "title":"",
       "fileType":"jpg",
-      "date":"17/09/2018",
+      "date":"17/SEP/2018",
       "description":"",
       "name":"me20",
       "collection":"me"
@@ -597,7 +598,7 @@ var ARTWORKS =
       "id":984877,
       "title":"",
       "fileType":"jpg",
-      "date":"17/09/2019",
+      "date":"17/SEP/2019",
       "description":"",
       "name":"me21",
       "collection":"me"
@@ -606,7 +607,7 @@ var ARTWORKS =
       "id":984937,
       "title":"",
       "fileType":"png",
-      "date":"17/09/2017",
+      "date":"17/SEP/2017",
       "description":"",
       "name":"me19",
       "collection":"me"
@@ -615,7 +616,7 @@ var ARTWORKS =
       "id":984997,
       "title":"",
       "fileType":"jpg",
-      "date":"23/09/2018",
+      "date":"23/SEP/2018",
       "description":"",
       "name":"mecheckered",
       "collection":"me"
@@ -624,7 +625,7 @@ var ARTWORKS =
       "id":985057,
       "title":"",
       "fileType":"jpg",
-      "date":"23/09/2018",
+      "date":"23/SEP/2018",
       "description":"",
       "name":"me",
       "collection":"me"
@@ -633,7 +634,7 @@ var ARTWORKS =
       "id":985117,
       "title":"",
       "fileType":"jpg",
-      "date":"18/09/2018",
+      "date":"18/SEP/2018",
       "description":"",
       "name":"mejacket",
       "collection":"me"
@@ -642,7 +643,7 @@ var ARTWORKS =
       "id":985177,
       "title":"",
       "fileType":"jpg",
-      "date":"24/09/2018",
+      "date":"24/SEP/2018",
       "description":"",
       "name":"mepaw",
       "collection":"me"
@@ -651,7 +652,7 @@ var ARTWORKS =
       "id":985237,
       "title":"",
       "fileType":"jpg",
-      "date":"24/09/2018",
+      "date":"24/SEP/2018",
       "description":"",
       "name":"mesw",
       "collection":"me"
@@ -660,7 +661,7 @@ var ARTWORKS =
       "id":985297,
       "title":"",
       "fileType":"jpg",
-      "date":"24/09/2018",
+      "date":"24/SEP/2018",
       "description":"",
       "name":"meunmc",
       "collection":"me"
@@ -669,7 +670,7 @@ var ARTWORKS =
       "id":985357,
       "title":"",
       "fileType":"jpg",
-      "date":"26/09/2018",
+      "date":"26/SEP/2018",
       "description":"",
       "name":"meded",
       "collection":"me"
@@ -678,7 +679,7 @@ var ARTWORKS =
       "id":985417,
       "title":"",
       "fileType":"jpg",
-      "date":"26/09/2018",
+      "date":"26/SEP/2018",
       "description":"",
       "name":"meshirt",
       "collection":"me"
@@ -687,7 +688,7 @@ var ARTWORKS =
       "id":985477,
       "title":"",
       "fileType":"jpg",
-      "date":"25/09/2018",
+      "date":"25/SEP/2018",
       "description":"",
       "name":"mewinter",
       "collection":"me"
@@ -696,7 +697,7 @@ var ARTWORKS =
       "id":985537,
       "title":"",
       "fileType":"jpg",
-      "date":"27/09/2018",
+      "date":"27/SEP/2018",
       "description":"",
       "name":"meskirt",
       "collection":"me"
@@ -705,7 +706,7 @@ var ARTWORKS =
       "id":985597,
       "title":"",
       "fileType":"png",
-      "date":"14/10/2018",
+      "date":"14/OCT/2018",
       "description":"",
       "name":"meclari",
       "collection":"me"
@@ -714,7 +715,7 @@ var ARTWORKS =
       "id":985657,
       "title":"",
       "fileType":"jpg",
-      "date":"6/10/2018",
+      "date":"6/OCT/2018",
       "description":"",
       "name":"meconcert",
       "collection":"me"
@@ -723,7 +724,7 @@ var ARTWORKS =
       "id":985717,
       "title":"",
       "fileType":"jpg",
-      "date":"30/09/2018",
+      "date":"30/SEP/2018",
       "description":"",
       "name":"meugh",
       "collection":"me"
@@ -732,7 +733,7 @@ var ARTWORKS =
       "id":985777,
       "title":"",
       "fileType":"jpg",
-      "date":"29/09/2018",
+      "date":"29/SEP/2018",
       "description":"",
       "name":"meyoung",
       "collection":"me"
@@ -741,7 +742,7 @@ var ARTWORKS =
       "id":985837,
       "title":"",
       "fileType":"png",
-      "date":"23/02/2019",
+      "date":"23/FEB/2019",
       "description":"",
       "name":"mesummer",
       "collection":"me"
@@ -750,7 +751,7 @@ var ARTWORKS =
       "id":985897,
       "title":"",
       "fileType":"png",
-      "date":"5/08/2017",
+      "date":"5/AUG/2017",
       "description":"",
       "name":"meanu",
       "collection":"me"
@@ -759,7 +760,7 @@ var ARTWORKS =
       "id":985957,
       "title":"",
       "fileType":"png",
-      "date":"4/09/2017",
+      "date":"4/SEP/2017",
       "description":"",
       "name":"meband",
       "collection":"me"
@@ -768,7 +769,7 @@ var ARTWORKS =
       "id":986017,
       "title":"",
       "fileType":"png",
-      "date":"3/09/2017",
+      "date":"3/SEP/2017",
       "description":"",
       "name":"mehs",
       "collection":"me"

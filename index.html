@@ -38,7 +38,9 @@
 	</div>
 
 	<div class="content" id="content">
-
+		<div class="full-frame" id="full-frame">
+			<p class="close-btn" id="close-btn">x</p>
+		</div>
 		<!-- home page -->
 		<div class="home-box" id="home-box">
 			<p class="title">
@@ -67,10 +69,30 @@
 				<br> (♪ᐤฅˊ꒳ˋᐤ)ฅ ~ ❤⃛
 			</p>
 
-			<div class="feature" id="feature">
-				<img src="./public/assets/artworks/see.png" />
-				<img src="./public/assets/artworks/redeye.jpg" />
-				<img src="./public/assets/artworks/headless.jpg" />
+			<div class="feature-box" id="feature">
+				<div class="f-col">
+					<div class="thumb">
+						<div id="983257" class="overlay" onclick=openFeatured(this.id)>
+							<div id="983257" class="art-title">星</div>
+						</div>
+						<img src="./public/assets/artworks/see.png">
+					</div>
+				</div>
+				<div class="f-col">
+					<div class="thumb">
+						<div id="982237" class="overlay" onclick=openFeatured(this.id)>
+							<div id="982237" class="art-title">Headless</div>
+						</div><img src="./public/assets/artworks/redeye.jpg">
+					</div>
+				</div>
+				<div class="f-col">
+					<div class="thumb">
+						<div id="981697" class="overlay" onclick=openFeatured(this.id)>
+							<div id="981697" class="art-title">Mermay 2018</div>
+						</div>
+						<img src="./public/assets/artworks/mermay2018.jpg">
+					</div>
+				</div>
 			</div>
 		</div>
 
