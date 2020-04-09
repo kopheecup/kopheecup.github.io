@@ -34,6 +34,11 @@
       height: 90% !important;
     }
 
+    .contact-img {
+      width: auto !important;
+      height: auto !important;
+    }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -127,4 +132,8 @@
       height: 90% !important;
     }
 
+    .contact-img {
+      width: 128px !important;
+      height: 128px !important;
+    }
 }

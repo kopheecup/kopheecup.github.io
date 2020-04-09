@@ -6,6 +6,15 @@ const API = {
 	assets: "/assets"
 }
 
+const SOCIALURL = {
+	"email": "kopheecup@gmail.com",
+	"git": "https://github.com/cheang-haoyuan",
+	"pixiv": "https://www.pixiv.net/en/users/12824167",
+	"ig": "https://www.instagram.com/toufoofah/",
+	"fb": "https://www.facebook.com/toufoofah/",
+	"da": "https://www.deviantart.com/kopheecup"
+}
+
   //ui functions
 
 var ui = bindUIs();
@@ -33,6 +42,11 @@ ui.github.addEventListener('click', toGit);
 
 window.addEventListener('scroll', stick);
 
+for (var i = 0; i < ui.contactLink.length; i++) {
+	ui.contactLink[i].addEventListener('click', toSocial);
+
+}
+
   //initialisation
 
 function bindUIs() {
@@ -47,6 +61,7 @@ function bindUIs() {
 	ui.body = document.getElementById("body");
 	ui.footer = document.getElementById("footer");
 
+  ui.menuBtn = document.getElementById("menu-btn");
   ui.homeBtn = document.getElementById("home-btn")
   ui.introBtn = document.getElementById("about-btn-nav");
   ui.galleryBtn = document.getElementById("gallery-btn-nav");
@@ -57,13 +72,12 @@ function bindUIs() {
 	ui.navBar = document.getElementById("nav");
 	ui.logo = document.getElementById("logo");
 
-  ui.menuBtn = document.getElementById("menu-btn");
-
 	ui.header = document.getElementById("header");
 	ui.headtitle = document.getElementById("headtitle");
 	ui.toufoofah = document.getElementById("name");
 
 	ui.github = document.getElementById("cs");
+	ui.contactLink = document.getElementsByClassName("contact-link");
 
   return ui;
 }
@@ -118,9 +132,34 @@ function bindUIs() {
 // }
 
 function toGit() {
-	var url = "https://github.com/cheang-haoyuan";
 
-	window.open(url);
+	window.open(SOCIALURL.git);
+}
+
+function toSocial(event) {
+	id = event.target.getAttribute("id");
+
+	switch (id) {
+		case "email":
+			return window.open("mailto:" + SOCIALURL.email);
+		case "git":
+			return window.open(SOCIALURL.git);
+
+		case "pixiv":
+			return window.open(SOCIALURL.pixiv);
+
+		case "ig":
+			return window.open(SOCIALURL.ig);
+
+		case "fb":
+			return window.open(SOCIALURL.fb);
+
+		case "da":
+			return window.open(SOCIALURL.da);
+
+		default:
+			return;
+	}
 }
 
 function showIntro() {
