@@ -239,6 +239,7 @@ function closeFrame() {
 
 	as.fullFrame.classList.remove("full-frame-active");
 	ui.body.classList.remove("lock");
+	ui.navBar.classList.remove("lock");
 
 }
 

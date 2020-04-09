@@ -336,6 +336,7 @@ body {
 
       .lock {
         overflow: hidden;
+        z-index: -1;
       }
 
       .close-btn, .contact-img {

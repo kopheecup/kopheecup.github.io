@@ -89,6 +89,7 @@ function redirect(art) {
 function fillArtDeets(art) {
   as.fullFrame.classList.add("full-frame-active");
   ui.body.classList.add("lock");
+  ui.navBar.classList.add("lock");
   var img = document.createElement("img");
   var br = document.createElement("br");
   var title = document.createElement("p");
