@@ -127,6 +127,7 @@ function showIntro() {
 		intro(ui.navLinks);
 		closeAll();
 		show(ui.intro);
+		ui.content.classList.remove("gallery-content");
 
 		// change header
 		ui.header.classList.remove("home");
@@ -151,8 +152,10 @@ function showGallery() {
 		gall(ui.navLinks);
 		closeAll();
 		show(ui.gallery);
+		fillGallery();
 
 		// change header
+		ui.content.classList.add("gallery-content");
 		ui.header.classList.remove("home");
 		ui.header.style.backgroundColor = "#FFF";
 		ui.header.style.backgroundImage = "url('')";
@@ -175,6 +178,7 @@ function showContact() {
 		con(ui.navLinks);
 		closeAll();
 		show(ui.contact);
+		ui.content.classList.remove("gallery-content");
 
 		// change header
 		ui.header.classList.remove("home");
@@ -197,6 +201,7 @@ function goHome() {
 		reset(ui.navLinks);
 		closeAll();
 		show(ui.home);
+		ui.content.classList.remove("gallery-content");
 
 		// change header
 		ui.header.style = {};

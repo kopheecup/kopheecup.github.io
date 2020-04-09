@@ -17,6 +17,18 @@
       height: 250px;
     }
 
+    .thumb {
+      overflow: hidden;
+    }
+
+    .thumb img {
+      width: 100%;
+    }
+
+    .col {
+      width: 50%;
+    }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -97,3 +109,18 @@
     .profile p {
       padding-top: 20px;
     }
+
+    .col {
+      width: 100%;
+    }
+
+    .thumb img {
+      padding: 5px;
+      width: 100%;
+    }
+
+    .thumb {
+      overflow: hidden;
+    }
+
+}
