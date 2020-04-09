@@ -30,13 +30,20 @@ function fillGallery() {
 	ARTWORKS.forEach(art => {
 
       var thumb = document.createElement("div");
+      var wrapper = document.createElement("div");
+      var title = document.createElement("div");
       var img = document.createElement("img");
       var id = art.id;
-      thumb.className = "thumb";
-      img.src = `./public/assets/artworks/${art.name}.${art.fileType}`;
 
       thumb.setAttribute("id", id);
+      thumb.className = "thumb";
+      wrapper.className = "overlay";
+      title.className = "art-title";
+      img.src = `./public/assets/artworks/${art.name}.${art.fileType}`;
+      title.innerHTML = `${art.title}`;
 
+      wrapper.appendChild(title);
+      thumb.appendChild(wrapper);
       thumb.appendChild(img);
 
       as.col[j % col_len].appendChild(thumb);
@@ -46,4 +53,8 @@ function fillGallery() {
     });
 
 	return;
+}
+
+function openArt(){
+  
 }
