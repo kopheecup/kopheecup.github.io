@@ -29,6 +29,8 @@ ui.contactBtn.addEventListener('click', showContact);
 ui.menuBtn.addEventListener('click', toggleMenu);
 ui.closeBtn.addEventListener('click', closeFrame);
 
+ui.github.addEventListener('click', toGit);
+
 window.addEventListener('scroll', stick);
 
   //initialisation
@@ -59,6 +61,8 @@ function bindUIs() {
 	ui.header = document.getElementById("header");
 	ui.headtitle = document.getElementById("headtitle");
 	ui.toufoofah = document.getElementById("name");
+
+	ui.github = document.getElementById("cs");
 
   return ui;
 }
@@ -111,6 +115,12 @@ function bindUIs() {
 //   }
 //
 // }
+
+function toGit() {
+	var url = "https://github.com/cheang-haoyuan";
+
+	window.open(url);
+}
 
 function showIntro() {
 	const IntColour = "rgb(156, 109, 097)";
@@ -281,8 +291,9 @@ function reset(element) {
 
 function stick() {
 	var sticky = ui.navBar.offsetTop;
+	var threshold = 104;
 
-	if (window.pageYOffset > sticky) {
+	if (window.pageYOffset > sticky && window.pageYOffset > threshold) {
 		ui.logo.classList.add("show");
     ui.navBar.classList.add("sticky");
 

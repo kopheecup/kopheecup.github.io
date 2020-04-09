@@ -76,7 +76,7 @@ body {
     text-align: center;
     display: block;
     margin: 30px;
-    padding: 50px 10px;
+    padding: 60px 10px;
     border-radius: 10px;
     color: rgb(030, 068, 126);
     background-color: rgba(255, 211, 187, 0.7);
@@ -258,6 +258,10 @@ body {
     height: 200px;
   }
 
+    #cs {
+      cursor: pointer;
+    }
+
   .study span {
     display: inline-block;
   }
@@ -266,8 +270,11 @@ body {
     text-align: center;
   }
 
-  .casual a {
+  a {
     color: inherit;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline;
   }
 
   .interests figure {
