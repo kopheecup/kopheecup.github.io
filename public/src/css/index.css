@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: body;
   src: url("../../assets/fonts/Gotu-Regular.ttf");
@@ -348,6 +352,25 @@ body {
         padding-top: 80px;
       }
 
+      .open-btn {
+        font-family: title;
+        font-size: 16pt;
+        line-height: 30px;
+        border-radius: 50px;
+        background-color: #FFF;
+        color: rgb(105, 057, 086);
+        border: 0px;
+        padding: 5px 20px;
+        transition: 0.5s ease;
+        cursor: pointer;
+        margin: 40px;
+      }
+
+        .open-btn:hover {
+          background-color: rgb(105, 057, 086);
+          color: #FFF;
+        }
+
       .asset-preview {
         height: 90%;
       }
@@ -396,19 +419,19 @@ body {
   color: rgb(030, 068, 126);
   background-color: #FFF;
   width: 100%;
-  height: 60px;
-  display: flex;
+  position: relative;
+  display: flow-root;
 }
-  .footer p {
-    padding-left: 90px;
+
+  .copyright {
+    float: left;
+    padding: 0px 50px;
   }
 
   .footer-link {
-    position: absolute;
-  	height: 40px;
-  	right: 90px;
+    float: right;
     display: inline-flex;
-    z-index: 0;
+    padding: 0px 50px;
   }
 
   .footer-link-btn {

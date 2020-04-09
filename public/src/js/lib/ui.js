@@ -45,6 +45,7 @@ function bindUIs() {
 	ui.gallery = document.getElementById("gallery-box");
 	ui.contact = document.getElementById("contact-box");
 	ui.body = document.getElementById("body");
+	ui.footer = document.getElementById("footer");
 
   ui.homeBtn = document.getElementById("home-btn")
   ui.introBtn = document.getElementById("about-btn-nav");
@@ -237,9 +238,11 @@ function closeFrame() {
 	 as.fullFrame.removeChild(as.fullFrame.children[1]);
 	}
 
-	as.fullFrame.classList.remove("full-frame-active");
 	ui.body.classList.remove("lock");
+	ui.navLinks.classList.remove("lock");
 	ui.navBar.classList.remove("lock");
+	ui.footer.classList.remove("lock");
+	as.fullFrame.classList.remove("full-frame-active");
 
 }
 

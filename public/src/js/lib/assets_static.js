@@ -87,9 +87,12 @@ function redirect(art) {
 }
 
 function fillArtDeets(art) {
-  as.fullFrame.classList.add("full-frame-active");
   ui.body.classList.add("lock");
+  ui.navLinks.classList.add("lock");
   ui.navBar.classList.add("lock");
+  ui.footer.classList.add("lock");
+  as.fullFrame.classList.add("full-frame-active");
+
   var img = document.createElement("img");
   var br = document.createElement("br");
   var title = document.createElement("p");

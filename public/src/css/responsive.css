@@ -25,8 +25,13 @@
       width: 100%;
     }
 
-    .col {
+    .col, .f-col, .c-col {
       width: 50%;
+    }
+
+    .asset-preview {
+      width: auto !important;
+      height: 90% !important;
     }
 
 }
@@ -74,11 +79,6 @@
     padding: 10px 0px 10px 30px;
   }
 
-  .footer {
-    display: block;
-    height: 150px;
-  }
-
     .footer-link {
       display: block;
     }
@@ -110,7 +110,7 @@
       padding-top: 20px;
     }
 
-    .col {
+    .col, .f-col, .c-col {
       width: 100%;
     }
 
@@ -120,6 +120,11 @@
 
     .thumb {
       overflow: hidden;
+    }
+
+    .asset-preview {
+      width: auto !important;
+      height: 90% !important;
     }
 
 }
