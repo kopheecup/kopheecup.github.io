@@ -14,7 +14,7 @@ var app = express();
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
-	extended: true
+  extended: true
 }));
 
 // DB SETUP
@@ -33,9 +33,9 @@ app.use('/api', routes)
 // Capture invalid entrypoints
 
 app.all('*', (req, res) => {
-	// res.sendStatus(403);
+  // res.sendStatus(403);
 
-	res.redirect('/public/err.html');
+  res.redirect('/public/err.html');
 
 })
 
@@ -44,5 +44,5 @@ app.all('*', (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-	console.log('Express is up and runnin');
+  console.log('Express is up and runnin');
 })

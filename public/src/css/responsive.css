@@ -65,9 +65,9 @@
     height: 60px;
   }
 
-	.nav-link {
-		display: none;
-	}
+  .nav-link {
+    display: none;
+  }
 
   .Nav .menu {
     display: block;

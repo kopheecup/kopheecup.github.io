@@ -47,16 +47,16 @@ function addWork() {
 }
 
 function checkPw(event) {
-	var password = as.pw.value;
+  var password = as.pw.value;
 
-	if (password != "0214") {
-		as.pwErrMsg.innerHTML = "Wrong password IMPOSTER ᕕ( ᐛ )ᕗ";
+  if (password != "0214") {
+    as.pwErrMsg.innerHTML = "Wrong password IMPOSTER ᕕ( ᐛ )ᕗ";
 
     if (!as.submission.classList.contains("hide")) {
       as.submission.classList.add("hide");
     }
 
-	} else {
+  } else {
     as.submission.classList.remove("hide");
     as.pwErrMsg.innerHTML = "";
   }
@@ -66,57 +66,57 @@ function checkPw(event) {
 function addAsset(event) {
 
   var xhr = new XMLHttpRequest();
-	var url = API.server + API.assets;
+  var url = API.server + API.assets;
 
-	var data = {
-		name: as.artTitle.value,
+  var data = {
+    name: as.artTitle.value,
     date: as.artDate.value,
-		description: as.artInfo.value,
+    description: as.artInfo.value,
     imgURL: as.art.value
-	};
+  };
 
   xhr.onreadystatechange = () => {
-		if (xhr.readyState == 4) {
-			if (xhr.status == 200) {
-				as.pw.value = "";
-				as.pwErrMsg.innerHTML = "Submission successful.";
+    if (xhr.readyState == 4) {
+      if (xhr.status == 200) {
+        as.pw.value = "";
+        as.pwErrMsg.innerHTML = "Submission successful.";
         as.submission.classList.add("hide");
 
-			} else {
-				as.pwErrMsg.innerHTML = "o nuuuuuu something went wrong :(";
-			}
-		}
-	}
+      } else {
+        as.pwErrMsg.innerHTML = "o nuuuuuu something went wrong :(";
+      }
+    }
+  }
 
-	xhr.open("POST", url, true);
-	xhr.setRequestHeader("Content-Type", "application/json");
-	xhr.send(JSON.stringify(data));
+  xhr.open("POST", url, true);
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.send(JSON.stringify(data));
 }
 
 function getAllAssets() {
-	assets = [];
+  assets = [];
 
-	var xhr = new XMLHttpRequest();
-	var url = API.server + API.assets;
+  var xhr = new XMLHttpRequest();
+  var url = API.server + API.assets;
 
-	xhr.onreadystatechange = () => {
-		if (xhr.readyState == 4 && xhr.status == 200) {
-			var res = JSON.parse(xhr.response);
-			res.forEach((asset) => {
-				const { _id, name, date, description, imgURL } = asset;
+  xhr.onreadystatechange = () => {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      var res = JSON.parse(xhr.response);
+      res.forEach((asset) => {
+        const { _id, name, date, description, imgURL } = asset;
 
-				assets.push({
-					id: _id,
-					name: name,
+        assets.push({
+          id: _id,
+          name: name,
           description: description,
-					imgURL: imgURL
-				});
-			})
-		}
-	}
+          imgURL: imgURL
+        });
+      })
+    }
+  }
 
-	xhr.open("GET", url, true);
-	xhr.send();
+  xhr.open("GET", url, true);
+  xhr.send();
 }
 
 function fillGallery(assets) {
@@ -126,18 +126,18 @@ function fillGallery(assets) {
   }
 
   assets.forEach((asset) => {
-		var thumb = document.createElement("img");
-		thumb.className = "preview";
-		thumb.src = `${asset.imgURL}`;
-		thumb.style.width = "200px";
-		thumb.style.height = "auto";
+    var thumb = document.createElement("img");
+    thumb.className = "preview";
+    thumb.src = `${asset.imgURL}`;
+    thumb.style.width = "200px";
+    thumb.style.height = "auto";
 
-		var id = asset.id ? asset.id: asset._id;
-		thumb.setAttribute("id", id);
-		//thumb.addEventListener('click', showInfo);
+    var id = asset.id ? asset.id: asset._id;
+    thumb.setAttribute("id", id);
+    //thumb.addEventListener('click', showInfo);
 
-		as.gallery.appendChild(thumb);
-	})
+    as.gallery.appendChild(thumb);
+  })
 }
 
 fillGallery(assets);

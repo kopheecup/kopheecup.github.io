@@ -29,7 +29,7 @@ function fillGallery() {
 
   }
 
-	ARTWORKS.forEach(art => {
+  ARTWORKS.forEach(art => {
 
       var thumb = document.createElement("div");
       var wrapper = document.createElement("div");
@@ -56,7 +56,7 @@ function fillGallery() {
 
     });
 
-	return;
+  return;
 }
 
 function openFeatured(id) {
