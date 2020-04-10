@@ -136,4 +136,13 @@
       width: 128px !important;
       height: 128px !important;
     }
+
+    .preview-desc {
+      padding: 40px 40px;
+      padding-bottom: 120px;
+    }
+
+    .title {
+      font-size: 22pt;
+    }
 }
