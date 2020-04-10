@@ -5,13 +5,13 @@ This is a website of my casual artworks, hosted on GitHub Pages.
 Took me a while to realise that GitHub pages only host static pages so the first 30 commits or so can be omitted ;-;
 They are mostly setting up for a node project and some React.
 
-**website link**
+# website link
 https://cheang-haoyuan.github.io/
 
-**豆腐花**
+# 豆腐花
 Or pronounced as Doe-foo-fah, is the 'name' I use for my artworks. It is sort of a dessert that I quite like. Not really related, but I kinda ran out of ideas when thinking about usernames.
 
-**Future Plans**
+# Future Plans
 - Add different collections, or group my artworks that shared similar themes.
 - Add sort function on gallery.
 - Add search function.
