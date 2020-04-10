@@ -128,8 +128,8 @@
     }
 
     .asset-preview {
-      width: auto !important;
-      height: 90% !important;
+      width: 90% !important;
+      height: auto !important;
     }
 
     .contact-img {
