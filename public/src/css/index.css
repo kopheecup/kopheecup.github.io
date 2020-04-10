@@ -115,6 +115,7 @@ body {
     padding: 5px 0px 5px 30px;
     font-family: title;
     font-size: 30pt;
+    background-color: rgba(0,0,0,0) !important;
     color: rgb(030, 068, 126);
     z-index: 20;
     cursor: pointer;
