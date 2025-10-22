@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1024px) {
+  span {
+    display: block;
+  }
+  .header {
+    text-align: center;
+    display: block !important;
+    padding-top: 4%;
+  }
+
+  .construction {
+    max-width: 100%;
+    max-height: calc(100vh - 300px);
+  }
+
+  .headtitle .tagline {
+    font-size: 12pt;
+  }
+
+}
+
+
+@media only screen and (max-width: 750px) {
+
+  .header {
+    padding-top: 20%;
+  }
+
+  .headtitle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+    .headtitle .tagline {
+      font-size: 12pt;
+    }
+
+  .headtitle .name {
+    font-size: 40px;
+  }
+
+}

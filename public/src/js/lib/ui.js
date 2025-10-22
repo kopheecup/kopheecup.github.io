@@ -1,14 +1,6 @@
-const API = {
-  server: window.location.origin + "/api",
-  guestLogin: "/users/guest",
-  users: "/users",
-  heartbeat: "/users/heartbeat",
-  assets: "/assets"
-}
-
 const SOCIALURL = {
   "email": "kopheecup@gmail.com",
-  "git": "https://github.com/cheang-haoyuan",
+  "git": "https://github.com/kopheecup",
   "pixiv": "https://www.pixiv.net/en/users/12824167",
   "ig": "https://www.instagram.com/toufoofah/",
   "fb": "https://www.facebook.com/toufoofah/",
@@ -81,55 +73,6 @@ function bindUIs() {
 
   return ui;
 }
-
-  //functions
-
-// deprecated
-
-// function toIntro() {
-//   if (ui.introBtn.classList.contains("active")) {
-//     return;
-//   }
-//   else if (ui.galleryBtn.classList.contains("active")) {
-//     window.location.href = "./intro.html";
-//   }
-//   else if (ui.contactBtn.classList.contains("active")) {
-//     window.location.href = "./intro.html";
-//   } else {
-//     window.location.href = "./public/intro.html";
-//   }
-//
-// }
-//
-// function toGallery() {
-//   if (ui.galleryBtn.classList.contains("active")) {
-//     return;
-//   }
-//   else if (ui.introBtn.classList.contains("active")) {
-//     window.location.href = "./gallery.html";
-//   }
-//   else if (ui.contactBtn.classList.contains("active")) {
-//     window.location.href = "./gallery.html";
-//   } else {
-//     window.location.href = "./public/gallery.html";
-//   }
-//
-// }
-//
-// function toContact() {
-//   if (ui.contactBtn.classList.contains("active")) {
-//     return;
-//   }
-//   else if (ui.introBtn.classList.contains("active")) {
-//     window.location.href = "./contact.html";
-//   }
-//   else if (ui.galleryBtn.classList.contains("active")) {
-//     window.location.href = "./contact.html";
-//   } else {
-//     window.location.href = "./public/contact.html";
-//   }
-//
-// }
 
 function toGit() {
 
