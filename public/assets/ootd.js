@@ -1,4 +1,4 @@
-var OOTD = [
+const OOTD = [
   {
     "id": "ootd01",
     "title": "2018 Spring",

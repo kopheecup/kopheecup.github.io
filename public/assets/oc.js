@@ -1,4 +1,4 @@
-var OC = [
+const OC = [
   {
     "name": "chrysanthemum",
     "children": ""

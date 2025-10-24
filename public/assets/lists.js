@@ -1,4 +1,4 @@
-var CATAGORIES = [
+const CATAGORIES = [
   "lighting",
   "comic",
   "fanart",
@@ -6,7 +6,7 @@ var CATAGORIES = [
   "outfit"
 ]
 
-var SETS = [
+const SETS = [
   "juice",
   "mode",
   "led",
@@ -18,7 +18,7 @@ var SETS = [
   "autumn"
 ]
 
-var STYLE = [
+const STYLE = [
   "chibi",
   "complete",
   "half",

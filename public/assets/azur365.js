@@ -1,4 +1,4 @@
-var AZUR365 = [
+const AZUR365 = [
   {
     "id": "az001",
     "title": "azur365 2023 Day 1",

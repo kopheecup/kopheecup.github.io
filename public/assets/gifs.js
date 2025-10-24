@@ -1,4 +1,4 @@
-var GIFS = [
+const GIFS = [
   {
     "id": "gif011",
     "title": "IJN Azuma",

@@ -1,4 +1,4 @@
-var CHIBI = [
+const CHIBI = [
   {
     "id": "chib001",
     "title": "Nakiri Ayame Sport",

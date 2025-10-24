@@ -1,4 +1,4 @@
-var ARTWORKS = [
+const ARTWORKS = [
   {
     "id": 980917,
     "title": "Shading Gang (digital)",

@@ -1,4 +1,4 @@
-var FANART = [
+const FANART = [
   {
     "title": "azur lane",
     "children": "USS, HMS, IJN, KMS/SMS, ROC/PRAN, RN, SN, MNF, FFNF, collab, none"

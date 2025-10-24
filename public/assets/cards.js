@@ -1,4 +1,4 @@
-var CARDS = [
+const CARDS = [
   {
     "id": "c202201",
     "title": "Clubs A",
