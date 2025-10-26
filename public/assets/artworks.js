@@ -44,127 +44,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\4+1og.jpg"
   },
   {
-    "id": 981069,
-    "title": "Ezio (Assassin's Creed 2)",
-    "fileType": "jpg",
-    "date": "14/7/2024",
-    "description": "",
-    "name": "acezio",
-    "tags": "fanart, ac, fullbody, flat, acanimal",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\acezio.jpg"
-  },
-  {
-    "id": 981071,
-    "title": "Ezio (Assassin's Creed 2)",
-    "fileType": "jpg",
-    "date": "28/6/2024",
-    "description": "",
-    "name": "acezio1",
-    "tags": "fanart, ac",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\acezio1.jpg"
-  },
-  {
-    "id": 981072,
-    "title": "Ezio (Assassin's Creed 2)",
-    "fileType": "jpg",
-    "date": "27/6/2024",
-    "description": "",
-    "name": "acezio2",
-    "tags": "fanart, ac",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\acezio2.jpg"
-  },
-  {
-    "id": 981095,
-    "title": "Ezio & Rosa (Assassin's Creed 2)",
-    "fileType": "png",
-    "date": "2/8/2024",
-    "description": "",
-    "name": "aceziorosa",
-    "tags": "fanart, ac, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\aceziorosa.jpg"
-  },
-  {
-    "id": 981068,
-    "title": "Leonardo da Vinci (Assassin's Creed 2)",
-    "fileType": "jpg",
-    "date": "16/7/2024",
-    "description": "",
-    "name": "acleo",
-    "tags": "fanart, ac, fullbody, flat, acanimal",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\acleo.jpg"
-  },
-  {
-    "id": 981073,
-    "title": "Leonardo da Vinci (Assassin's Creed 2)",
-    "fileType": "jpg",
-    "date": "17/6/2024",
-    "description": "",
-    "name": "acleo1",
-    "tags": "fanart, ac",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\acleo1.jpg"
-  },
-  {
-    "id": 981066,
-    "title": "Rosa (Assassin's Creed 2)",
-    "fileType": "jpg",
-    "date": "13/7/2024",
-    "description": "",
-    "name": "acrosa",
-    "tags": "fanart, ac, fullbody, flat, acanimal",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\acrosa.jpg"
-  },
-  {
-    "id": 981070,
-    "title": "Rosa (Assassin's Creed 2)",
-    "fileType": "jpg",
-    "date": "10/7/2024",
-    "description": "",
-    "name": "acrosa2",
-    "tags": "fanart, ac",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\acrosa2.jpg"
-  },
-  {
-    "id": 981067,
-    "title": "Yusuf (Assassin's Creed: Revelations)",
-    "fileType": "jpg",
-    "date": "18/7/2024",
-    "description": "",
-    "name": "acyusuf",
-    "tags": "fanart, ac, fullbody, flat, acanimal",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\acyusuf.jpg"
-  },
-  {
-    "id": 981077,
-    "title": "Pramanix (Arknights)",
-    "fileType": "jpg",
-    "date": "2/2/2023",
-    "description": "",
-    "name": "arkpra",
-    "tags": "fanart, arknights",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\arkpra.jpg"
-  },
-  {
-    "id": 981048,
-    "title": "???",
-    "fileType": "png",
-    "date": "13/3/2024",
-    "description": "",
-    "name": "azlaneog",
-    "tags": "fanart, USS, HMS, IJN,KMS, azur lane, half, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\azlaneog.jpg"
-  },
-  {
     "id": 980921,
     "title": "HMS Illustrious",
     "fileType": "jpg",
@@ -207,17 +86,6 @@ const ARTWORKS = [
     "tags": "fanart, azur lane, fullbody, flat, USS",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\azurportland.jpg"
-  },
-  {
-    "id": 981061,
-    "title": "",
-    "fileType": "png",
-    "date": "17/3/2023",
-    "description": "",
-    "name": "beki",
-    "tags": "lighting",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\beki.jpg"
   },
   {
     "id": 980925,
@@ -286,39 +154,6 @@ const ARTWORKS = [
     "thumbPath": ""
   },
   {
-    "id": 981057,
-    "title": "Chrysanthemum",
-    "fileType": "png",
-    "date": "4/8/2023",
-    "description": "",
-    "name": "chrys2",
-    "tags": "oc, chrysanthemum, outfit, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\chrys2.jpg"
-  },
-  {
-    "id": 981065,
-    "title": "Chrysanthemum",
-    "fileType": "jpg",
-    "date": "5/9/2024",
-    "description": "",
-    "name": "chrys3",
-    "tags": "oc, chrysanthemum, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\chrys3.jpg"
-  },
-  {
-    "id": 981075,
-    "title": "Chrysanthemum",
-    "fileType": "jpg",
-    "date": "25/3/2024",
-    "description": "",
-    "name": "chrys4",
-    "tags": "oc, chrysanthemum, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\chrys4.jpg"
-  },
-  {
     "id": 980931,
     "title": "Night in the Library",
     "fileType": "jpg",
@@ -328,28 +163,6 @@ const ARTWORKS = [
     "tags": "oc, chrysanthemum, lighting, complete",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\chrysbooks.jpg"
-  },
-  {
-    "id": 981062,
-    "title": "Chrysanthemum",
-    "fileType": "jpg",
-    "date": "31/8/2024",
-    "description": "",
-    "name": "chryself",
-    "tags": "oc, chrysanthemum, outfit, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\chryself.jpg"
-  },
-  {
-    "id": 981064,
-    "title": "Chrysanthemum",
-    "fileType": "jpg",
-    "date": "5/9/2024",
-    "description": "",
-    "name": "chryself2",
-    "tags": "oc, chrysanthemum, outfit, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\chryself2.jpg"
   },
   {
     "id": 980932,
@@ -372,28 +185,6 @@ const ARTWORKS = [
     "tags": "oc, chrysanthemum",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\chryslay.jpg"
-  },
-  {
-    "id": 981063,
-    "title": "Chrysanthemum",
-    "fileType": "jpg",
-    "date": "3/9/2024",
-    "description": "",
-    "name": "chrysmage",
-    "tags": "oc, chrysanthemum, outfit, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\chrysmage.jpg"
-  },
-  {
-    "id": 981096,
-    "title": "Chrysanthumum outfits",
-    "fileType": "png",
-    "date": "5/9/2024",
-    "description": "",
-    "name": "chrysoutfits",
-    "tags": "oc, chrysanthemum, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\chrysoutfits.jpg"
   },
   {
     "id": 980934,
@@ -427,17 +218,6 @@ const ARTWORKS = [
     "tags": "oc, chrysanthemum",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\chryssmile.jpg"
-  },
-  {
-    "id": 981032,
-    "title": "Chrysanthemum",
-    "fileType": "png",
-    "date": "12/7/2023",
-    "description": "",
-    "name": "chrysswim",
-    "tags": "oc, chrysanthemum, fullbody, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\chrysswim.jpg"
   },
   {
     "id": 980937,
@@ -528,17 +308,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\dbhcon3.jpg"
   },
   {
-    "id": 981097,
-    "title": "Connor",
-    "fileType": "png",
-    "date": "22/4/2025",
-    "description": "",
-    "name": "dbhcon4",
-    "tags": "fanart, dbh, connor, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\dbhcon4.jpg"
-  },
-  {
     "id": 980945,
     "title": "Dewey",
     "fileType": "jpg",
@@ -548,17 +317,6 @@ const ARTWORKS = [
     "tags": "fanart, dbh, connor, dewey, complete, lighting",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\dbhcondew.jpg"
-  },
-  {
-    "id": 981098,
-    "title": "Dewey MK II",
-    "fileType": "png",
-    "date": "1/5/2025",
-    "description": "",
-    "name": "dbhcondew2",
-    "tags": "fanart, dbh, connor, dewey, half, complete",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\dbhcondew2.jpg"
   },
   {
     "id": 980946,
@@ -627,39 +385,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\dbhkararoom.jpg"
   },
   {
-    "id": 981089,
-    "title": "We are not the same",
-    "fileType": "png",
-    "date": "25/1/2025",
-    "description": "",
-    "name": "dbhlick",
-    "tags": "fanart, dbh, hank, connor, sumo, half, comic, lick",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\dbhlick.jpg"
-  },
-  {
-    "id": 981090,
-    "title": "We are not the same (Bonus 1)",
-    "fileType": "png",
-    "date": "25/1/2025",
-    "description": "",
-    "name": "dbhlickbonus1",
-    "tags": "fanart, dbh, connor, sumo, half, comic, lick",
-    "digital": 1,
-    "thumbPath": ""
-  },
-  {
-    "id": 981091,
-    "title": "We are not the same (Bonus 1)",
-    "fileType": "png",
-    "date": "25/1/2025",
-    "description": "",
-    "name": "dbhlickbonus2",
-    "tags": "fanart, dbh, hank, half, comic, lick",
-    "digital": 1,
-    "thumbPath": ""
-  },
-  {
     "id": 980952,
     "title": "Markus Companion Ball",
     "fileType": "jpg",
@@ -704,17 +429,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\dbhstar.jpg"
   },
   {
-    "id": 981088,
-    "title": "Weather Resistant Connor",
-    "fileType": "png",
-    "date": "6/2/2025",
-    "description": "",
-    "name": "dbhweather",
-    "tags": "fanart, dbh, connor, half, comic",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\dbhweather.jpg"
-  },
-  {
     "id": 980956,
     "title": "Double",
     "fileType": "png",
@@ -748,259 +462,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\eye.jpg"
   },
   {
-    "id": 981033,
-    "title": "",
-    "fileType": "png",
-    "date": "8/6/2023",
-    "description": "",
-    "name": "fo4_0",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_0.jpg"
-  },
-  {
-    "id": 981034,
-    "title": "",
-    "fileType": "png",
-    "date": "5/6/2023",
-    "description": "",
-    "name": "fo4_1",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, lighting, complete",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_1.jpg"
-  },
-  {
-    "id": 981043,
-    "title": "",
-    "fileType": "png",
-    "date": "23/3/2023",
-    "description": "",
-    "name": "fo4_10",
-    "tags": "oc, fo4, chrysanthemum",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_10.jpg"
-  },
-  {
-    "id": 981053,
-    "title": "Chrysanthemum (Fallout 4)",
-    "fileType": "png",
-    "date": "7/4/2024",
-    "description": "",
-    "name": "fo4_11",
-    "tags": "oc, fo4, chrysanthemum, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_11.jpg"
-  },
-  {
-    "id": 981058,
-    "title": "",
-    "fileType": "png",
-    "date": "7/5/2023",
-    "description": "",
-    "name": "fo4_12",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, lighting, complete",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_12.jpg"
-  },
-  {
-    "id": 981059,
-    "title": "Chrysanthemum (Fallout 4)",
-    "fileType": "png",
-    "date": "8/6/2023",
-    "description": "",
-    "name": "fo4_13",
-    "tags": "oc, fo4, chrysanthemum",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_13.jpg"
-  },
-  {
-    "id": 981060,
-    "title": "Chrysanthemum (Fallout 4)",
-    "fileType": "png",
-    "date": "6/6/2023",
-    "description": "",
-    "name": "fo4_14",
-    "tags": "oc, fo4, chrysanthemum",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_14.jpg"
-  },
-  {
-    "id": 981085,
-    "title": "",
-    "fileType": "png",
-    "date": "21/7/2023",
-    "description": "",
-    "name": "fo4_15",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic, chin",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_15.jpg"
-  },
-  {
-    "id": 981079,
-    "title": "",
-    "fileType": "jpg",
-    "date": "26/2/2022",
-    "description": "",
-    "name": "fo4_16",
-    "tags": "oc, fanart, chrysanthemum, maccready, preston, cait, danse, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_16.jpg"
-  },
-  {
-    "id": 981080,
-    "title": "",
-    "fileType": "jpg",
-    "date": "23/2/2022",
-    "description": "",
-    "name": "fo4_17",
-    "tags": "oc, fanart, chrysanthemum, shaun, codsworth, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_17.jpg"
-  },
-  {
-    "id": 981081,
-    "title": "",
-    "fileType": "png",
-    "date": "28/2/2022",
-    "description": "",
-    "name": "fo4_18",
-    "tags": "oc, fanart, chrysanthemum, maccready, preston, cait, danse, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_18.jpg"
-  },
-  {
-    "id": 981082,
-    "title": "",
-    "fileType": "png",
-    "date": "24/2/2022",
-    "description": "",
-    "name": "fo4_19",
-    "tags": "oc, fanart, chrysanthemum, piper, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_19.jpg"
-  },
-  {
-    "id": 981035,
-    "title": "",
-    "fileType": "png",
-    "date": "4/6/2023",
-    "description": "",
-    "name": "fo4_2",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_2.jpg"
-  },
-  {
-    "id": 981083,
-    "title": "",
-    "fileType": "png",
-    "date": "23/2/2022",
-    "description": "",
-    "name": "fo4_20",
-    "tags": "oc, fanart, chrysanthemum, x6-88, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_20.jpg"
-  },
-  {
-    "id": 981084,
-    "title": "",
-    "fileType": "png",
-    "date": "21/2/2022",
-    "description": "",
-    "name": "fo4_21",
-    "tags": "oc, fanart, chrysanthemum, deacon, half",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_21.jpg"
-  },
-  {
-    "id": 981076,
-    "title": "",
-    "fileType": "jpg",
-    "date": "21/7/2023",
-    "description": "",
-    "name": "fo4_22",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic, chin",
-    "digital": 1,
-    "thumbPath": ""
-  },
-  {
-    "id": 981036,
-    "title": "",
-    "fileType": "png",
-    "date": "31/5/2023",
-    "description": "",
-    "name": "fo4_3",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_3.jpg"
-  },
-  {
-    "id": 981037,
-    "title": "",
-    "fileType": "png",
-    "date": "29/5/2023",
-    "description": "",
-    "name": "fo4_4",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_4.jpg"
-  },
-  {
-    "id": 981038,
-    "title": "",
-    "fileType": "png",
-    "date": "29/5/2023",
-    "description": "",
-    "name": "fo4_5",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, lighting, complete",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_5.jpg"
-  },
-  {
-    "id": 981039,
-    "title": "",
-    "fileType": "png",
-    "date": "26/5/2023",
-    "description": "",
-    "name": "fo4_6",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_6.jpg"
-  },
-  {
-    "id": 981040,
-    "title": "",
-    "fileType": "png",
-    "date": "24/5/2023",
-    "description": "",
-    "name": "fo4_7",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready, sketch",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_7.jpg"
-  },
-  {
-    "id": 981041,
-    "title": "",
-    "fileType": "png",
-    "date": "24/5/2023",
-    "description": "",
-    "name": "fo4_8",
-    "tags": "oc, fanart, fo4, chrysanthemum, maccready",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_8.jpg"
-  },
-  {
-    "id": 981042,
-    "title": "",
-    "fileType": "png",
-    "date": "15/4/2023",
-    "description": "",
-    "name": "fo4_9",
-    "tags": "oc, fo4, chrysanthemum",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_9.jpg"
-  },
-  {
     "id": 980959,
     "title": "gabi debut",
     "fileType": "jpg",
@@ -1010,50 +471,6 @@ const ARTWORKS = [
     "tags": "oc, stardew, gabi, sketch",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\gabi1.jpg"
-  },
-  {
-    "id": 980967,
-    "title": "gabi winter 2",
-    "fileType": "jpg",
-    "date": "29/7/2025",
-    "description": "",
-    "name": "gabi10",
-    "tags": "oc, stardew, gabi, flat, fullbody",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\gabi10.jpg"
-  },
-  {
-    "id": 980968,
-    "title": "gabi spring dance 3",
-    "fileType": "jpg",
-    "date": "8/8/2025",
-    "description": "",
-    "name": "gabi11",
-    "tags": "oc, stardew, gabi, flat, fullbody",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\gabi11.jpg"
-  },
-  {
-    "id": 980969,
-    "title": "gabi winter star",
-    "fileType": "jpg",
-    "date": "8/8/2025",
-    "description": "",
-    "name": "gabi12",
-    "tags": "oc, stardew, gabi, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\gabi12.jpg"
-  },
-  {
-    "id": 980970,
-    "title": "gabi",
-    "fileType": "jpg",
-    "date": "9/8/2025",
-    "description": "",
-    "name": "gabi13",
-    "tags": "oc, stardew, gabi, flat, fullbody",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\gabi13.jpg"
   },
   {
     "id": 980960,
@@ -1133,6 +550,50 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\gabi9.jpg"
   },
   {
+    "id": 980967,
+    "title": "gabi winter 2",
+    "fileType": "jpg",
+    "date": "29/7/2025",
+    "description": "",
+    "name": "gabi10",
+    "tags": "oc, stardew, gabi, flat, fullbody",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\gabi10.jpg"
+  },
+  {
+    "id": 980968,
+    "title": "gabi spring dance 3",
+    "fileType": "jpg",
+    "date": "8/8/2025",
+    "description": "",
+    "name": "gabi11",
+    "tags": "oc, stardew, gabi, flat, fullbody",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\gabi11.jpg"
+  },
+  {
+    "id": 980969,
+    "title": "gabi winter star",
+    "fileType": "jpg",
+    "date": "8/8/2025",
+    "description": "",
+    "name": "gabi12",
+    "tags": "oc, stardew, gabi, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\gabi12.jpg"
+  },
+  {
+    "id": 980970,
+    "title": "gabi",
+    "fileType": "jpg",
+    "date": "9/8/2025",
+    "description": "",
+    "name": "gabi13",
+    "tags": "oc, stardew, gabi, flat, fullbody",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\gabi13.jpg"
+  },
+  {
     "id": 980971,
     "title": "gabi",
     "fileType": "jpg",
@@ -1142,17 +603,6 @@ const ARTWORKS = [
     "tags": "oc, stardew, gabi, flat",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\gabicov.jpg"
-  },
-  {
-    "id": 981092,
-    "title": "gabi ref sheet",
-    "fileType": "png",
-    "date": "16/8/2025",
-    "description": "",
-    "name": "gabiref",
-    "tags": "oc, stardew, gabi, ref",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\gabiref.jpg"
   },
   {
     "id": 980972,
@@ -1210,17 +660,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\honolulu.jpg"
   },
   {
-    "id": 981078,
-    "title": "USS Honolulu Festival",
-    "fileType": "jpg",
-    "date": "19/4/2022",
-    "description": "",
-    "name": "honolulufes",
-    "tags": "fanart, azur lane, fullbody, USS",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\honolulufes.jpg"
-  },
-  {
     "id": 980977,
     "title": "?",
     "fileType": "png",
@@ -1254,61 +693,6 @@ const ARTWORKS = [
     "thumbPath": ""
   },
   {
-    "id": 981103,
-    "title": "Kyuu Default Outfit",
-    "fileType": "png",
-    "date": "22/9/2022",
-    "description": "",
-    "name": "kyuu_default",
-    "tags": "oc, kyuu, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\kyuu_default.jpg"
-  },
-  {
-    "id": 981104,
-    "title": "Kyuu Default Outfit 2",
-    "fileType": "png",
-    "date": "23/9/2022",
-    "description": "",
-    "name": "kyuu_default2",
-    "tags": "oc, kyuu, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\kyuu_default2.jpg"
-  },
-  {
-    "id": 981105,
-    "title": "Kyuu Summer Outfit",
-    "fileType": "png",
-    "date": "24/9/2022",
-    "description": "",
-    "name": "kyuu_summer",
-    "tags": "oc, kyuu, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\kyuu_summer.jpg"
-  },
-  {
-    "id": 981106,
-    "title": "Kyuu Winter Outfit",
-    "fileType": "png",
-    "date": "25/9/2022",
-    "description": "",
-    "name": "kyuu_winter",
-    "tags": "oc, kyuu, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\kyuu_winter.jpg"
-  },
-  {
-    "id": 981046,
-    "title": "Nana",
-    "fileType": "png",
-    "date": "11/1/2023",
-    "description": "",
-    "name": "nanakyuu",
-    "tags": "oc, nana, kyuu",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\nanakyuu.jpg"
-  },
-  {
     "id": 980980,
     "title": "Lighting Practice",
     "fileType": "png",
@@ -1318,28 +702,6 @@ const ARTWORKS = [
     "tags": "lighting",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\light.jpg"
-  },
-  {
-    "id": 981086,
-    "title": "Bitsy (Uprooted)",
-    "fileType": "png",
-    "date": "13/2/2025",
-    "description": "",
-    "name": "loabitsy",
-    "tags": "fanart, avantris",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\loabitsy.jpg"
-  },
-  {
-    "id": 981087,
-    "title": "Grumley (Uprooted)",
-    "fileType": "png",
-    "date": "20/2/2025",
-    "description": "",
-    "name": "loagrumley",
-    "tags": "fanart, avantris",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\loagrumley.jpg"
   },
   {
     "id": 980981,
@@ -1386,61 +748,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\mermay2018.jpg"
   },
   {
-    "id": 981052,
-    "title": "Myra (Skyrim)",
-    "fileType": "png",
-    "date": "28/5/2024",
-    "description": "",
-    "name": "myra",
-    "tags": "oc, skyrim, myra, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\myra.jpg"
-  },
-  {
-    "id": 981056,
-    "title": "Myra",
-    "fileType": "png",
-    "date": "7/2/2024",
-    "description": "Got the year wrong D:",
-    "name": "myra0",
-    "tags": "oc, myra, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\myra0.jpg"
-  },
-  {
-    "id": 981074,
-    "title": "Myra (Skyrim)",
-    "fileType": "jpg",
-    "date": "12/5/2024",
-    "description": "",
-    "name": "myra1",
-    "tags": "oc, skyrim, myra, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\myra1.jpg"
-  },
-  {
-    "id": 981049,
-    "title": "Myra",
-    "fileType": "png",
-    "date": "5/12/2023",
-    "description": "",
-    "name": "myrasketch",
-    "tags": "oc, myra, sketch",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\myrasketch.jpg"
-  },
-  {
-    "id": 981101,
-    "title": "Nana Default Outfit",
-    "fileType": "png",
-    "date": "13/9/2022",
-    "description": "",
-    "name": "nana_default_outfit",
-    "tags": "oc, nana, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\nana_default_outfit.jpg"
-  },
-  {
     "id": 980985,
     "title": "Nana outfit concept",
     "fileType": "png",
@@ -1472,50 +779,6 @@ const ARTWORKS = [
     "tags": "oc, nana, outfit, fullbody",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\nana_outfits2.jpg"
-  },
-  {
-    "id": 981100,
-    "title": "Nana Summer Outfit",
-    "fileType": "png",
-    "date": "12/9/2022",
-    "description": "",
-    "name": "nana_summer_outfit",
-    "tags": "oc, nana, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\nana_summer_outfit.jpg"
-  },
-  {
-    "id": 981102,
-    "title": "Nana Winter Outfit",
-    "fileType": "png",
-    "date": "14/9/2022",
-    "description": "",
-    "name": "nana_winter_outfit",
-    "tags": "oc, nana, outfit",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\nana_winter_outfit.jpg"
-  },
-  {
-    "id": 981054,
-    "title": "Nico",
-    "fileType": "png",
-    "date": "17/2/2024",
-    "description": "",
-    "name": "nico",
-    "tags": "oc, nico, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\nico.jpg"
-  },
-  {
-    "id": 981050,
-    "title": "Nico",
-    "fileType": "jpg",
-    "date": "5/12/2023",
-    "description": "",
-    "name": "nicosketch",
-    "tags": "oc, nico, sketch",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\nicosketch.jpg"
   },
   {
     "id": 980988,
@@ -1595,39 +858,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\oc_scroll.jpg"
   },
   {
-    "id": 981047,
-    "title": "",
-    "fileType": "png",
-    "date": "24/12/2022",
-    "description": "",
-    "name": "ocgang",
-    "tags": "oc, chrysanthemum, aeconight, budd, lilja, prairie",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\ocgang.jpg"
-  },
-  {
-    "id": 981055,
-    "title": "Oscar",
-    "fileType": "png",
-    "date": "15/2/2024",
-    "description": "",
-    "name": "oscar",
-    "tags": "oc, oscar, fullbody, flat",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\oscar.jpg"
-  },
-  {
-    "id": 981051,
-    "title": "Oscar",
-    "fileType": "jpg",
-    "date": "5/12/2023",
-    "description": "",
-    "name": "oscarsketch",
-    "tags": "oc, oscar, sketch",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\oscarsketch.jpg"
-  },
-  {
     "id": 980995,
     "title": "Outfit Sketch",
     "fileType": "jpg",
@@ -1648,28 +878,6 @@ const ARTWORKS = [
     "tags": "oc, chrysanthemum, outfit",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\outfit1.jpg"
-  },
-  {
-    "id": 981005,
-    "title": "OC Halloween Outfit",
-    "fileType": "jpg",
-    "date": "13/10/2024",
-    "description": "",
-    "name": "outfit10",
-    "tags": "oc, chrysanthemum, outfit, fullbody",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\outfit10.jpg"
-  },
-  {
-    "id": 981006,
-    "title": "OC Halloween Outfit",
-    "fileType": "jpg",
-    "date": "13/10/2024",
-    "description": "",
-    "name": "outfit11",
-    "tags": "oc, chrysanthemum, outfit, fullbody",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\outfit11.jpg"
   },
   {
     "id": 980997,
@@ -1760,6 +968,28 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\outfit9.jpg"
   },
   {
+    "id": 981005,
+    "title": "OC Halloween Outfit",
+    "fileType": "jpg",
+    "date": "13/10/2024",
+    "description": "",
+    "name": "outfit10",
+    "tags": "oc, chrysanthemum, outfit, fullbody",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\outfit10.jpg"
+  },
+  {
+    "id": 981006,
+    "title": "OC Halloween Outfit",
+    "fileType": "jpg",
+    "date": "13/10/2024",
+    "description": "",
+    "name": "outfit11",
+    "tags": "oc, chrysanthemum, outfit, fullbody",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\outfit11.jpg"
+  },
+  {
     "id": 981007,
     "title": "Group Photo",
     "fileType": "png",
@@ -1769,28 +999,6 @@ const ARTWORKS = [
     "tags": "oc, melodia, sebastian, noel, jenny",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\partay.jpg"
-  },
-  {
-    "id": 981031,
-    "title": "Penelope",
-    "fileType": "png",
-    "date": "7/12/2023",
-    "description": "",
-    "name": "penelope",
-    "tags": "oc, sketch, penelope",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\penelope.jpg"
-  },
-  {
-    "id": 981094,
-    "title": "Penelope",
-    "fileType": "png",
-    "date": "4/8/2024",
-    "description": "",
-    "name": "penelope2",
-    "tags": "oc, penelope, fullbody",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\penelope2.jpg"
   },
   {
     "id": 981008,
@@ -1835,17 +1043,6 @@ const ARTWORKS = [
     "tags": "oc, chrysanthemum",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\poseprac3.jpg"
-  },
-  {
-    "id": 981099,
-    "title": "",
-    "fileType": "png",
-    "date": "26/4/2022",
-    "description": "",
-    "name": "pramanix",
-    "tags": "fanart, arknights",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\pramanix.jpg"
   },
   {
     "id": 981012,
@@ -1912,17 +1109,6 @@ const ARTWORKS = [
     "tags": "oc, stardew, serena, fullbody, flat",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\serenaoutfit.jpg"
-  },
-  {
-    "id": 981093,
-    "title": "Serena ref sheet",
-    "fileType": "png",
-    "date": "6/9/2025",
-    "description": "",
-    "name": "serenaref",
-    "tags": "oc, stardew, serena, ref",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\serenaref.jpg"
   },
   {
     "id": 981018,
@@ -2002,28 +1188,6 @@ const ARTWORKS = [
     "thumbPath": ".\\public\\assets\\thumbnails\\together.jpg"
   },
   {
-    "id": 981044,
-    "title": "Suzuya",
-    "fileType": "png",
-    "date": "7/5/2023",
-    "description": "I did drew this in 2023 but I rlly dk what made me wrote 2025� ???",
-    "name": "tokyo",
-    "tags": "fanart, tokyo ghoul",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\tokyo.jpg"
-  },
-  {
-    "id": 981045,
-    "title": "Arima",
-    "fileType": "png",
-    "date": "7/5/2023",
-    "description": "",
-    "name": "tokyo1",
-    "tags": "fanart, tokyo ghoul",
-    "digital": 1,
-    "thumbPath": ".\\public\\assets\\thumbnails\\tokyo1.jpg"
-  },
-  {
     "id": 981025,
     "title": "Untitled",
     "fileType": "png",
@@ -2088,5 +1252,1127 @@ const ARTWORKS = [
     "tags": "oc, yuyou, tako",
     "digital": 1,
     "thumbPath": ".\\public\\assets\\thumbnails\\yuyoutako.jpg"
+  },
+  {
+    "id": 981031,
+    "title": "Penelope",
+    "fileType": "png",
+    "date": "7/12/2023",
+    "description": "",
+    "name": "penelope",
+    "tags": "oc, sketch, penelope",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\penelope.jpg"
+  },
+  {
+    "id": 981032,
+    "title": "Chrysanthemum",
+    "fileType": "png",
+    "date": "12/7/2023",
+    "description": "",
+    "name": "chrysswim",
+    "tags": "oc, chrysanthemum, fullbody, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\chrysswim.jpg"
+  },
+  {
+    "id": 981033,
+    "title": "",
+    "fileType": "png",
+    "date": "8/6/2023",
+    "description": "",
+    "name": "fo4_0",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_0.jpg"
+  },
+  {
+    "id": 981034,
+    "title": "",
+    "fileType": "png",
+    "date": "5/6/2023",
+    "description": "",
+    "name": "fo4_1",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, lighting, complete",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_1.jpg"
+  },
+  {
+    "id": 981035,
+    "title": "",
+    "fileType": "png",
+    "date": "4/6/2023",
+    "description": "",
+    "name": "fo4_2",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_2.jpg"
+  },
+  {
+    "id": 981036,
+    "title": "",
+    "fileType": "png",
+    "date": "31/5/2023",
+    "description": "",
+    "name": "fo4_3",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_3.jpg"
+  },
+  {
+    "id": 981037,
+    "title": "",
+    "fileType": "png",
+    "date": "29/5/2023",
+    "description": "",
+    "name": "fo4_4",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_4.jpg"
+  },
+  {
+    "id": 981038,
+    "title": "",
+    "fileType": "png",
+    "date": "29/5/2023",
+    "description": "",
+    "name": "fo4_5",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, lighting, complete",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_5.jpg"
+  },
+  {
+    "id": 981039,
+    "title": "",
+    "fileType": "png",
+    "date": "26/5/2023",
+    "description": "",
+    "name": "fo4_6",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_6.jpg"
+  },
+  {
+    "id": 981040,
+    "title": "",
+    "fileType": "png",
+    "date": "24/5/2023",
+    "description": "",
+    "name": "fo4_7",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, sketch",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_7.jpg"
+  },
+  {
+    "id": 981041,
+    "title": "",
+    "fileType": "png",
+    "date": "24/5/2023",
+    "description": "",
+    "name": "fo4_8",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_8.jpg"
+  },
+  {
+    "id": 981042,
+    "title": "",
+    "fileType": "png",
+    "date": "15/4/2023",
+    "description": "",
+    "name": "fo4_9",
+    "tags": "oc, fo4, chrysanthemum",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_9.jpg"
+  },
+  {
+    "id": 981043,
+    "title": "",
+    "fileType": "png",
+    "date": "23/3/2023",
+    "description": "",
+    "name": "fo4_10",
+    "tags": "oc, fo4, chrysanthemum",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_10.jpg"
+  },
+  {
+    "id": 981044,
+    "title": "Suzuya",
+    "fileType": "png",
+    "date": "7/5/2023",
+    "description": "I did drew this in 2023 but I rlly dk what made me wrote 2025� ???",
+    "name": "tokyo",
+    "tags": "fanart, tokyo ghoul",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\tokyo.jpg"
+  },
+  {
+    "id": 981045,
+    "title": "Arima",
+    "fileType": "png",
+    "date": "7/5/2023",
+    "description": "",
+    "name": "tokyo1",
+    "tags": "fanart, tokyo ghoul",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\tokyo1.jpg"
+  },
+  {
+    "id": 981046,
+    "title": "Nana",
+    "fileType": "png",
+    "date": "11/1/2023",
+    "description": "",
+    "name": "nanakyuu",
+    "tags": "oc, nana, kyuu",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\nanakyuu.jpg"
+  },
+  {
+    "id": 981047,
+    "title": "",
+    "fileType": "png",
+    "date": "24/12/2022",
+    "description": "",
+    "name": "ocgang",
+    "tags": "oc, chrysanthemum, aeconight, budd, lilja, prairie",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\ocgang.jpg"
+  },
+  {
+    "id": 981048,
+    "title": "???",
+    "fileType": "png",
+    "date": "13/3/2024",
+    "description": "",
+    "name": "azlaneog",
+    "tags": "fanart, USS, HMS, IJN,KMS, azur lane, half, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\azlaneog.jpg"
+  },
+  {
+    "id": 981049,
+    "title": "Myra",
+    "fileType": "png",
+    "date": "5/12/2023",
+    "description": "",
+    "name": "myrasketch",
+    "tags": "oc, myra, sketch",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\myrasketch.jpg"
+  },
+  {
+    "id": 981050,
+    "title": "Nico",
+    "fileType": "jpg",
+    "date": "5/12/2023",
+    "description": "",
+    "name": "nicosketch",
+    "tags": "oc, nico, sketch",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\nicosketch.jpg"
+  },
+  {
+    "id": 981051,
+    "title": "Oscar",
+    "fileType": "jpg",
+    "date": "5/12/2023",
+    "description": "",
+    "name": "oscarsketch",
+    "tags": "oc, oscar, sketch",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\oscarsketch.jpg"
+  },
+  {
+    "id": 981052,
+    "title": "Myra (Skyrim)",
+    "fileType": "png",
+    "date": "28/5/2024",
+    "description": "",
+    "name": "myra",
+    "tags": "oc, skyrim, myra, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\myra.jpg"
+  },
+  {
+    "id": 981053,
+    "title": "Chrysanthemum (Fallout 4)",
+    "fileType": "png",
+    "date": "7/4/2024",
+    "description": "",
+    "name": "fo4_11",
+    "tags": "oc, fo4, chrysanthemum, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_11.jpg"
+  },
+  {
+    "id": 981054,
+    "title": "Nico",
+    "fileType": "png",
+    "date": "17/2/2024",
+    "description": "",
+    "name": "nico",
+    "tags": "oc, nico, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\nico.jpg"
+  },
+  {
+    "id": 981055,
+    "title": "Oscar",
+    "fileType": "png",
+    "date": "15/2/2024",
+    "description": "",
+    "name": "oscar",
+    "tags": "oc, oscar, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\oscar.jpg"
+  },
+  {
+    "id": 981056,
+    "title": "Myra",
+    "fileType": "png",
+    "date": "7/2/2024",
+    "description": "Got the year wrong D:",
+    "name": "myra0",
+    "tags": "oc, myra, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\myra0.jpg"
+  },
+  {
+    "id": 981057,
+    "title": "Chrysanthemum",
+    "fileType": "png",
+    "date": "4/8/2023",
+    "description": "",
+    "name": "chrys2",
+    "tags": "oc, chrysanthemum, outfit, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\chrys2.jpg"
+  },
+  {
+    "id": 981058,
+    "title": "",
+    "fileType": "png",
+    "date": "7/5/2023",
+    "description": "",
+    "name": "fo4_12",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, lighting, complete",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_12.jpg"
+  },
+  {
+    "id": 981059,
+    "title": "Chrysanthemum (Fallout 4)",
+    "fileType": "png",
+    "date": "8/6/2023",
+    "description": "",
+    "name": "fo4_13",
+    "tags": "oc, fo4, chrysanthemum",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_13.jpg"
+  },
+  {
+    "id": 981060,
+    "title": "Chrysanthemum (Fallout 4)",
+    "fileType": "png",
+    "date": "6/6/2023",
+    "description": "",
+    "name": "fo4_14",
+    "tags": "oc, fo4, chrysanthemum",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_14.jpg"
+  },
+  {
+    "id": 981061,
+    "title": "",
+    "fileType": "png",
+    "date": "17/3/2023",
+    "description": "",
+    "name": "beki",
+    "tags": "lighting",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\beki.jpg"
+  },
+  {
+    "id": 981062,
+    "title": "Chrysanthemum",
+    "fileType": "jpg",
+    "date": "31/8/2024",
+    "description": "",
+    "name": "chryself",
+    "tags": "oc, chrysanthemum, outfit, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\chryself.jpg"
+  },
+  {
+    "id": 981063,
+    "title": "Chrysanthemum",
+    "fileType": "jpg",
+    "date": "3/9/2024",
+    "description": "",
+    "name": "chrysmage",
+    "tags": "oc, chrysanthemum, outfit, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\chrysmage.jpg"
+  },
+  {
+    "id": 981064,
+    "title": "Chrysanthemum",
+    "fileType": "jpg",
+    "date": "5/9/2024",
+    "description": "",
+    "name": "chryself2",
+    "tags": "oc, chrysanthemum, outfit, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\chryself2.jpg"
+  },
+  {
+    "id": 981065,
+    "title": "Chrysanthemum",
+    "fileType": "jpg",
+    "date": "5/9/2024",
+    "description": "",
+    "name": "chrys3",
+    "tags": "oc, chrysanthemum, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\chrys3.jpg"
+  },
+  {
+    "id": 981066,
+    "title": "Rosa (Assassin's Creed 2)",
+    "fileType": "jpg",
+    "date": "13/7/2024",
+    "description": "",
+    "name": "acrosa",
+    "tags": "fanart, ac, fullbody, flat, acanimal",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\acrosa.jpg"
+  },
+  {
+    "id": 981067,
+    "title": "Yusuf (Assassin's Creed: Revelations)",
+    "fileType": "jpg",
+    "date": "18/7/2024",
+    "description": "",
+    "name": "acyusuf",
+    "tags": "fanart, ac, fullbody, flat, acanimal",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\acyusuf.jpg"
+  },
+  {
+    "id": 981068,
+    "title": "Leonardo da Vinci (Assassin's Creed 2)",
+    "fileType": "jpg",
+    "date": "16/7/2024",
+    "description": "",
+    "name": "acleo",
+    "tags": "fanart, ac, fullbody, flat, acanimal",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\acleo.jpg"
+  },
+  {
+    "id": 981069,
+    "title": "Ezio (Assassin's Creed 2)",
+    "fileType": "jpg",
+    "date": "14/7/2024",
+    "description": "",
+    "name": "acezio",
+    "tags": "fanart, ac, fullbody, flat, acanimal",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\acezio.jpg"
+  },
+  {
+    "id": 981070,
+    "title": "Rosa (Assassin's Creed 2)",
+    "fileType": "jpg",
+    "date": "10/7/2024",
+    "description": "",
+    "name": "acrosa2",
+    "tags": "fanart, ac",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\acrosa2.jpg"
+  },
+  {
+    "id": 981071,
+    "title": "Ezio (Assassin's Creed 2)",
+    "fileType": "jpg",
+    "date": "28/6/2024",
+    "description": "",
+    "name": "acezio1",
+    "tags": "fanart, ac",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\acezio1.jpg"
+  },
+  {
+    "id": 981072,
+    "title": "Ezio (Assassin's Creed 2)",
+    "fileType": "jpg",
+    "date": "27/6/2024",
+    "description": "",
+    "name": "acezio2",
+    "tags": "fanart, ac",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\acezio2.jpg"
+  },
+  {
+    "id": 981073,
+    "title": "Leonardo da Vinci (Assassin's Creed 2)",
+    "fileType": "jpg",
+    "date": "17/6/2024",
+    "description": "",
+    "name": "acleo1",
+    "tags": "fanart, ac",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\acleo1.jpg"
+  },
+  {
+    "id": 981074,
+    "title": "Myra (Skyrim)",
+    "fileType": "jpg",
+    "date": "12/5/2024",
+    "description": "",
+    "name": "myra1",
+    "tags": "oc, skyrim, myra, fullbody, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\myra1.jpg"
+  },
+  {
+    "id": 981075,
+    "title": "Chrysanthemum",
+    "fileType": "jpg",
+    "date": "25/3/2024",
+    "description": "",
+    "name": "chrys4",
+    "tags": "oc, chrysanthemum, flat",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\chrys4.jpg"
+  },
+  {
+    "id": 981076,
+    "title": "",
+    "fileType": "jpg",
+    "date": "21/7/2023",
+    "description": "",
+    "name": "fo4_22",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic, chin",
+    "digital": 1,
+    "thumbPath": ""
+  },
+  {
+    "id": 981077,
+    "title": "Pramanix (Arknights)",
+    "fileType": "jpg",
+    "date": "2/2/2023",
+    "description": "",
+    "name": "arkpra",
+    "tags": "fanart, arknights",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\arkpra.jpg"
+  },
+  {
+    "id": 981078,
+    "title": "USS Honolulu Festival",
+    "fileType": "jpg",
+    "date": "19/4/2022",
+    "description": "",
+    "name": "honolulufes",
+    "tags": "fanart, azur lane, fullbody, USS",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\honolulufes.jpg"
+  },
+  {
+    "id": 981079,
+    "title": "",
+    "fileType": "jpg",
+    "date": "26/2/2022",
+    "description": "",
+    "name": "fo4_16",
+    "tags": "oc, fanart, chrysanthemum, maccready, preston, cait, danse, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_16.jpg"
+  },
+  {
+    "id": 981080,
+    "title": "",
+    "fileType": "jpg",
+    "date": "23/2/2022",
+    "description": "",
+    "name": "fo4_17",
+    "tags": "oc, fanart, chrysanthemum, shaun, codsworth, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_17.jpg"
+  },
+  {
+    "id": 981081,
+    "title": "",
+    "fileType": "png",
+    "date": "28/2/2022",
+    "description": "",
+    "name": "fo4_18",
+    "tags": "oc, fanart, chrysanthemum, maccready, preston, cait, danse, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_18.jpg"
+  },
+  {
+    "id": 981082,
+    "title": "",
+    "fileType": "png",
+    "date": "24/2/2022",
+    "description": "",
+    "name": "fo4_19",
+    "tags": "oc, fanart, chrysanthemum, piper, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_19.jpg"
+  },
+  {
+    "id": 981083,
+    "title": "",
+    "fileType": "png",
+    "date": "23/2/2022",
+    "description": "",
+    "name": "fo4_20",
+    "tags": "oc, fanart, chrysanthemum, x6-88, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_20.jpg"
+  },
+  {
+    "id": 981084,
+    "title": "",
+    "fileType": "png",
+    "date": "21/2/2022",
+    "description": "",
+    "name": "fo4_21",
+    "tags": "oc, fanart, chrysanthemum, deacon, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_21.jpg"
+  },
+  {
+    "id": 981085,
+    "title": "",
+    "fileType": "png",
+    "date": "21/7/2023",
+    "description": "",
+    "name": "fo4_15",
+    "tags": "oc, fanart, fo4, chrysanthemum, maccready, comic, chin",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\fo4_15.jpg"
+  },
+  {
+    "id": 981086,
+    "title": "Bitsy (Uprooted)",
+    "fileType": "png",
+    "date": "13/2/2025",
+    "description": "",
+    "name": "loabitsy",
+    "tags": "fanart, avantris",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\loabitsy.jpg"
+  },
+  {
+    "id": 981087,
+    "title": "Grumley (Uprooted)",
+    "fileType": "png",
+    "date": "20/2/2025",
+    "description": "",
+    "name": "loagrumley",
+    "tags": "fanart, avantris",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\loagrumley.jpg"
+  },
+  {
+    "id": 981088,
+    "title": "Weather Resistant Connor",
+    "fileType": "png",
+    "date": "6/2/2025",
+    "description": "",
+    "name": "dbhweather",
+    "tags": "fanart, dbh, connor, half, comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\dbhweather.jpg"
+  },
+  {
+    "id": 981089,
+    "title": "We are not the same",
+    "fileType": "png",
+    "date": "25/1/2025",
+    "description": "",
+    "name": "dbhlick",
+    "tags": "fanart, dbh, hank, connor, sumo, half, comic, lick",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\dbhlick.jpg"
+  },
+  {
+    "id": 981090,
+    "title": "We are not the same (Bonus 1)",
+    "fileType": "png",
+    "date": "25/1/2025",
+    "description": "",
+    "name": "dbhlickbonus1",
+    "tags": "fanart, dbh, connor, sumo, half, comic, lick",
+    "digital": 1,
+    "thumbPath": ""
+  },
+  {
+    "id": 981091,
+    "title": "We are not the same (Bonus 1)",
+    "fileType": "png",
+    "date": "25/1/2025",
+    "description": "",
+    "name": "dbhlickbonus2",
+    "tags": "fanart, dbh, hank, half, comic, lick",
+    "digital": 1,
+    "thumbPath": ""
+  },
+  {
+    "id": 981092,
+    "title": "gabi ref sheet",
+    "fileType": "png",
+    "date": "16/8/2025",
+    "description": "",
+    "name": "gabiref",
+    "tags": "oc, stardew, gabi, ref",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\gabiref.jpg"
+  },
+  {
+    "id": 981093,
+    "title": "Serena ref sheet",
+    "fileType": "png",
+    "date": "6/9/2025",
+    "description": "",
+    "name": "serenaref",
+    "tags": "oc, stardew, serena, ref",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\serenaref.jpg"
+  },
+  {
+    "id": 981094,
+    "title": "Penelope",
+    "fileType": "png",
+    "date": "4/8/2024",
+    "description": "",
+    "name": "penelope2",
+    "tags": "oc, penelope, fullbody",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\penelope2.jpg"
+  },
+  {
+    "id": 981095,
+    "title": "Ezio & Rosa (Assassin's Creed 2)",
+    "fileType": "png",
+    "date": "2/8/2024",
+    "description": "",
+    "name": "aceziorosa",
+    "tags": "fanart, ac, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\aceziorosa.jpg"
+  },
+  {
+    "id": 981096,
+    "title": "Chrysanthumum outfits",
+    "fileType": "png",
+    "date": "5/9/2024",
+    "description": "",
+    "name": "chrysoutfits",
+    "tags": "oc, chrysanthemum, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\chrysoutfits.jpg"
+  },
+  {
+    "id": 981097,
+    "title": "Connor",
+    "fileType": "png",
+    "date": "22/4/2025",
+    "description": "",
+    "name": "dbhcon4",
+    "tags": "fanart, dbh, connor, half",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\dbhcon4.jpg"
+  },
+  {
+    "id": 981098,
+    "title": "Dewey MK II",
+    "fileType": "png",
+    "date": "1/5/2025",
+    "description": "",
+    "name": "dbhcondew2",
+    "tags": "fanart, dbh, connor, dewey, half, complete",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\dbhcondew2.jpg"
+  },
+  {
+    "id": 981099,
+    "title": "",
+    "fileType": "png",
+    "date": "26/4/2022",
+    "description": "",
+    "name": "pramanix",
+    "tags": "fanart, arknights",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\pramanix.jpg"
+  },
+  {
+    "id": 981100,
+    "title": "Nana Summer Outfit",
+    "fileType": "png",
+    "date": "12/9/2022",
+    "description": "",
+    "name": "nana_summer_outfit",
+    "tags": "oc, nana, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\nana_summer_outfit.jpg"
+  },
+  {
+    "id": 981101,
+    "title": "Nana Default Outfit",
+    "fileType": "png",
+    "date": "13/9/2022",
+    "description": "",
+    "name": "nana_default_outfit",
+    "tags": "oc, nana, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\nana_default_outfit.jpg"
+  },
+  {
+    "id": 981102,
+    "title": "Nana Winter Outfit",
+    "fileType": "png",
+    "date": "14/9/2022",
+    "description": "",
+    "name": "nana_winter_outfit",
+    "tags": "oc, nana, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\nana_winter_outfit.jpg"
+  },
+  {
+    "id": 981103,
+    "title": "Kyuu Default Outfit",
+    "fileType": "png",
+    "date": "22/9/2022",
+    "description": "",
+    "name": "kyuu_default",
+    "tags": "oc, kyuu, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\kyuu_default.jpg"
+  },
+  {
+    "id": 981104,
+    "title": "Kyuu Default Outfit 2",
+    "fileType": "png",
+    "date": "23/9/2022",
+    "description": "",
+    "name": "kyuu_default2",
+    "tags": "oc, kyuu, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\kyuu_default2.jpg"
+  },
+  {
+    "id": 981105,
+    "title": "Kyuu Summer Outfit",
+    "fileType": "png",
+    "date": "24/9/2022",
+    "description": "",
+    "name": "kyuu_summer",
+    "tags": "oc, kyuu, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\kyuu_summer.jpg"
+  },
+  {
+    "id": 981106,
+    "title": "Kyuu Winter Outfit",
+    "fileType": "png",
+    "date": "25/9/2022",
+    "description": "",
+    "name": "kyuu_winter",
+    "tags": "oc, kyuu, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\kyuu_winter.jpg"
+  },
+  {
+    "id": 981107,
+    "title": "Medodia Ref",
+    "fileType": "png",
+    "date": "8/12/2017",
+    "description": "",
+    "name": "melodiaref",
+    "tags": "oc, melodia, ref",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\melodiaref.jpg"
+  },
+  {
+    "id": 981108,
+    "title": "Outfit Sketch",
+    "fileType": "png",
+    "date": "6/7/2022",
+    "description": "",
+    "name": "outfit12",
+    "tags": "oc, chrysanthemum, aeconight, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\outfit12.jpg"
+  },
+  {
+    "id": 981109,
+    "title": "Outfit Sketch",
+    "fileType": "png",
+    "date": "6/7/2022",
+    "description": "",
+    "name": "outfit13",
+    "tags": "oc, lilja, prairie, budd, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\outfit13.jpg"
+  },
+  {
+    "id": 981110,
+    "title": "Outfit Sketch",
+    "fileType": "png",
+    "date": "6/7/2022",
+    "description": "",
+    "name": "outfit14",
+    "tags": "oc, chrysanthemum, aeconight, budd, lilja, prairie, outfit",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\outfit14.jpg"
+  },
+  {
+    "id": 981111,
+    "title": "Deadline",
+    "fileType": "png",
+    "date": "0/0/2020",
+    "description": "",
+    "name": "dean",
+    "tags": "comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\dean.jpg"
+  },
+  {
+    "id": 981112,
+    "title": "Tired I",
+    "fileType": "png",
+    "date": "0/0/2020",
+    "description": "",
+    "name": "cup",
+    "tags": "comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\cup.jpg"
+  },
+  {
+    "id": 981113,
+    "title": "Tired II",
+    "fileType": "png",
+    "date": "0/0/2020",
+    "description": "",
+    "name": "shampoo",
+    "tags": "comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\shampoo.jpg"
+  },
+  {
+    "id": 981114,
+    "title": "Tired III",
+    "fileType": "png",
+    "date": "0/0/2020",
+    "description": "",
+    "name": "door",
+    "tags": "comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\door.jpg"
+  },
+  {
+    "id": 981115,
+    "title": "SSRI",
+    "fileType": "png",
+    "date": "0/0/2020",
+    "description": "",
+    "name": "ssri",
+    "tags": "comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\ssri.jpg"
+  },
+  {
+    "id": 981116,
+    "title": "SSRI (Bonus)",
+    "fileType": "png",
+    "date": "0/0/2020",
+    "description": "",
+    "name": "ssribonus",
+    "tags": "comic",
+    "digital": 1,
+    "thumbPath": ""
+  },
+  {
+    "id": 981117,
+    "title": "EEG Time!",
+    "fileType": "png",
+    "date": "0/0/2020",
+    "description": "",
+    "name": "eeg",
+    "tags": "comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\eeg.jpg"
+  },
+  {
+    "id": 981118,
+    "title": "Costco Trip",
+    "fileType": "png",
+    "date": "0/0/2020",
+    "description": "",
+    "name": "costco",
+    "tags": "comic",
+    "digital": 1,
+    "thumbPath": ".\\public\\assets\\thumbnails\\costco.jpg"
+  },
+  {
+    "id": 981119,
+    "title": "Phone Cover 2017",
+    "fileType": "jpg",
+    "date": "19/11/2017",
+    "description": "Birthday gift for a friend",
+    "name": "phonecover0",
+    "tags": "phonecover",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\phonecover0.jpg"
+  },
+  {
+    "id": 981120,
+    "title": "Phone Cover 2018",
+    "fileType": "jpg",
+    "date": "12/6/2018",
+    "description": "",
+    "name": "phonecover1",
+    "tags": "phonecover",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\phonecover1.jpg"
+  },
+  {
+    "id": 981121,
+    "title": "Phone Cover 2019",
+    "fileType": "jpg",
+    "date": "4/7/2019",
+    "description": "",
+    "name": "phonecover2",
+    "tags": "phonecover",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\phonecover2.jpg"
+  },
+  {
+    "id": 981122,
+    "title": "Phone Cover 2021",
+    "fileType": "jpg",
+    "date": "0/0/2021",
+    "description": "",
+    "name": "phonecover3",
+    "tags": "phonecover",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\phonecover3.jpg"
+  },
+  {
+    "id": 981123,
+    "title": "Phone Cover 2016",
+    "fileType": "jpg",
+    "date": "15/12/2016",
+    "description": "I've lost the cover so this is a photocopied version of it.",
+    "name": "phonecover4",
+    "tags": "phonecover",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\phonecover4.jpg"
+  },
+  {
+    "id": 981124,
+    "title": "",
+    "fileType": "jpg",
+    "date": "13/11/2018",
+    "description": "",
+    "name": "skywin1",
+    "tags": "oc, skylar, winston, sketch",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\skywin1.jpg"
+  },
+  {
+    "id": 981125,
+    "title": "",
+    "fileType": "jpg",
+    "date": "13/11/2018",
+    "description": "",
+    "name": "skywin",
+    "tags": "oc, skylar, winston, sketch",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\skywin.jpg"
+  },
+  {
+    "id": 981126,
+    "title": "",
+    "fileType": "jpg",
+    "date": "13/6/2018",
+    "description": "",
+    "name": "bagtag",
+    "tags": "",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\bagtag.jpg"
+  },
+  {
+    "id": 981127,
+    "title": "Watercolour pencil",
+    "fileType": "jpg",
+    "date": "19/3/2018",
+    "description": "",
+    "name": "paper0",
+    "tags": "",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\paper0.jpg"
+  },
+  {
+    "id": 981128,
+    "title": "",
+    "fileType": "jpg",
+    "date": "14/6/2019",
+    "description": "",
+    "name": "hug1",
+    "tags": "",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\hug1.jpg"
+  },
+  {
+    "id": 981129,
+    "title": "",
+    "fileType": "jpg",
+    "date": "13/6/2019",
+    "description": "",
+    "name": "hug2",
+    "tags": "sketch",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\hug2.jpg"
+  },
+  {
+    "id": 981130,
+    "title": "",
+    "fileType": "jpg",
+    "date": "8/6/2019",
+    "description": "",
+    "name": "flowers",
+    "tags": "",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\flowers.jpg"
+  },
+  {
+    "id": 981131,
+    "title": "",
+    "fileType": "jpg",
+    "date": "28/8/2019",
+    "description": "",
+    "name": "sketch",
+    "tags": "sketch",
+    "digital": 0,
+    "thumbPath": ".\\public\\assets\\thumbnails\\sketch.jpg"
+  },
+  {
+    "id": 981132,
+    "title": "",
+    "fileType": "jpg",
+    "date": "28/8/2019",
+    "description": "",
+    "name": "sketchbonus",
+    "tags": "sketch",
+    "digital": 0,
+    "thumbPath": ""
   }
 ]

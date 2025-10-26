@@ -1,78 +1,34 @@
 const OC = [
   {
-    "name": "chrysanthemum",
-    "children": ""
+    "series": "flora",
+    "children": "chrysanthemum, budd, aeconight, lilja, prairie"
   },
   {
-    "name": "budd",
-    "children": ""
+    "series": "threemusketeers",
+    "children": "oscar, nico, myra"
   },
   {
-    "name": "aeconight",
-    "children": ""
+    "series": "roomates",
+    "children": "noel, melodia, sebastian, jenny"
   },
   {
-    "name": "lilja",
-    "children": ""
+    "series": "seafood",
+    "children": "ika, yuyou, tako"
   },
   {
-    "name": "prairie",
-    "children": ""
+    "series": "reapers",
+    "children": "nana, kyuu"
   },
   {
-    "name": "myra",
-    "children": ""
-  },
-  {
-    "name": "nico",
-    "children": ""
-  },
-  {
-    "name": "oscar",
-    "children": ""
-  },
-  {
-    "name": "noel",
-    "children": ""
-  },
-  {
-    "name": "melodia",
-    "children": ""
-  },
-  {
-    "name": "sebastian",
-    "children": ""
-  },
-  {
-    "name": "jenny",
-    "children": ""
-  },
-  {
-    "name": "sky",
-    "children": ""
-  },
-  {
-    "name": "ika",
-    "children": ""
-  },
-  {
-    "name": "yuyou",
-    "children": ""
-  },
-  {
-    "name": "tako",
-    "children": ""
-  },
-  {
-    "name": "the gang",
-    "children": ""
-  },
-  {
-    "name": "nana",
-    "children": ""
-  },
-  {
-    "name": "stardew",
+    "series": "stardew",
     "children": "gabi, serena, halc"
+  },
+  {
+    "series": "muse",
+    "children": "skylar, winston"
+  },
+  {
+    "series": "indie",
+    "children": "sky, the gang, penelope"
   }
 ]

@@ -3,7 +3,8 @@ const CATAGORIES = [
   "comic",
   "fanart",
   "oc",
-  "outfit"
+  "outfit",
+  "ref"
 ]
 
 const SETS = [
